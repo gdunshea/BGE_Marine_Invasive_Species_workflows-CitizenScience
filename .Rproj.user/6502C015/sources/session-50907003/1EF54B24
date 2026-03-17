@@ -1,0 +1,26 @@
+{
+    "id": "1EF54B24",
+    "path": "~/Documents/GitHub/BGE_CitizenScience_MNIS/Scripts/01.Database_query_WORMS.R",
+    "project_path": "Scripts/01.Database_query_WORMS.R",
+    "type": "r_source",
+    "hash": "2654951965",
+    "contents": "",
+    "dirty": false,
+    "created": 1773743103909.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "1,25",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1773743249,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1773743249017,
+    "read_only": false,
+    "read_only_alternatives": []
+}

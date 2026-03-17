@@ -1,0 +1,269 @@
+library(phyloseq)
+library(dplyr)
+library(ggplot2)
+
+# ── Load ──────────────────────────────────────────────────────────────────────
+ps_syntax <- readRDS("Raw_data/12S_OTUs_syntax.RDS")
+ps_ncbi   <- readRDS("Raw_data/12S_OTUs_NCBI.RDS")
+
+# ── Subset ────────────────────────────────────────────────────────────────────
+ps_syntax_cs <- subset_samples(ps_syntax, Sampling.area.Project == "BGE Marine Invasive Species Citizen Science")
+ps_ncbi_cs   <- subset_samples(ps_ncbi,   Sampling.area.Project == "BGE Marine Invasive Species Citizen Science")
+ps_syntax_cs <- prune_taxa(taxa_sums(ps_syntax_cs) > 0, ps_syntax_cs)
+ps_ncbi_cs   <- prune_taxa(taxa_sums(ps_ncbi_cs)   > 0, ps_ncbi_cs)
+
+ps_syntax_others <- subset_samples(ps_syntax,
+                                   Sampling.area.Project != "BGE Marine Invasive Species Citizen Science" &
+                                     Sampling.area.Project != "NA")
+ps_ncbi_others   <- subset_samples(ps_ncbi,
+                                   Sampling.area.Project != "BGE Marine Invasive Species Citizen Science" &
+                                     Sampling.area.Project != "NA")
+ps_syntax_others <- prune_taxa(taxa_sums(ps_syntax_others) > 0, ps_syntax_others)
+ps_ncbi_others   <- prune_taxa(taxa_sums(ps_ncbi_others)   > 0, ps_ncbi_others)
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
+is_contaminant <- function(tax) {
+  # Mammalia/Aves but NOT cetacean or pinniped
+  is_mb         <- !is.na(tax$Class)  & tax$Class  %in% c("Mammalia", "Aves")
+  is_marine_mm  <- !is.na(tax$Family) & tax$Family %in% MARINE_MAMMAL_FAMILIES
+  is_mb & !is_marine_mm
+}
+
+get_tax_reads <- function(ps) {
+  tax     <- as.data.frame(tax_table(ps))
+  otu_mat <- as(otu_table(ps), "matrix")
+  if (!taxa_are_rows(ps)) otu_mat <- t(otu_mat)
+  tax$total_reads <- rowSums(otu_mat)
+  list(tax = tax, otu_mat = otu_mat)
+}
+
+# Marine mammals to RETAIN (not contamination)
+CETACEAN_FAMILIES    <- c("Delphinidae", "Phocoenidae", "Balaenidae", "Balaenopteridae",
+                          "Ziphiidae", "Physeteridae", "Kogiidae", "Monodontidae",
+                          "Eschrichtiidae", "Platanistidae", "Iniidae", "Pontoporiidae")
+PINNIPED_FAMILIES    <- c("Phocidae", "Otariidae", "Odobenidae")
+MARINE_MAMMAL_FAMILIES <- c(CETACEAN_FAMILIES, PINNIPED_FAMILIES)
+
+# ── compare_mambird ───────────────────────────────────────────────────────────
+compare_mambird <- function(ps, label) {
+  x   <- get_tax_reads(ps)
+  tax <- x$tax
+  tax[] <- lapply(tax, function(col) ifelse(is.na(col), "NA", col))
+  
+  total_otus  <- nrow(tax)
+  total_reads <- sum(tax$total_reads)
+  
+  contam     <- tax %>% filter(is_contaminant(.))
+  marine_mm  <- tax %>% filter(Class == "Mammalia",
+                               Family %in% MARINE_MAMMAL_FAMILIES)
+  
+  shared_cols <- intersect(c("Class", "Order", "Family", "Genus", "Species", "total_reads"),
+                           colnames(tax))
+  
+  cat("\n===", label, "===\n")
+  cat("Total OTUs:                  ", total_otus, "\n")
+  cat("Total reads:                 ", total_reads, "\n")
+  cat("Contaminant OTUs:            ", nrow(contam),
+      sprintf("(%.1f%%)", 100 * nrow(contam) / total_otus), "\n")
+  cat("Contaminant reads:           ", sum(contam$total_reads),
+      sprintf("(%.1f%%)\n", 100 * sum(contam$total_reads) / total_reads))
+  cat("Cetacean/pinniped OTUs kept: ", nrow(marine_mm), "\n")
+  
+  cat("\nTop 10 contaminant OTUs by read count:\n")
+  contam %>%
+    arrange(desc(total_reads)) %>%
+    select(all_of(shared_cols)) %>%
+    head(10) %>%
+    as.data.frame() %>%
+    print()
+  
+  if (nrow(marine_mm) > 0) {
+    cat("\nCetacean/pinniped OTUs retained:\n")
+    marine_mm %>%
+      arrange(desc(total_reads)) %>%
+      select(all_of(shared_cols)) %>%
+      as.data.frame() %>%
+      print()
+  }
+  
+  cat("\nClass breakdown of contaminant OTUs:\n")
+  contam %>%
+    count(Class, Order, sort = TRUE) %>%
+    as.data.frame() %>%
+    print()
+  
+  invisible(list(contaminants = contam, marine_mammals = marine_mm))
+}
+
+mb_syntax_cs     <- compare_mambird(ps_syntax_cs,     "CS           | Syntax")
+mb_ncbi_cs       <- compare_mambird(ps_ncbi_cs,       "CS           | NCBI")
+mb_syntax_others <- compare_mambird(ps_syntax_others, "Other (port) | Syntax")
+mb_ncbi_others   <- compare_mambird(ps_ncbi_others,   "Other (port) | NCBI")
+
+# ── Summary table ─────────────────────────────────────────────────────────────
+summarise_mambird <- function(ps, label) {
+  x   <- get_tax_reads(ps)
+  tax <- x$tax
+  tax[] <- lapply(tax, function(col) ifelse(is.na(col), "NA", col))
+  
+  contam <- tax %>% filter(is_contaminant(.))
+  data.frame(
+    Dataset        = label,
+    Total_OTUs     = nrow(tax),
+    Total_reads    = sum(tax$total_reads),
+    Contam_OTUs    = nrow(contam),
+    Contam_OTU_pct = round(100 * nrow(contam) / nrow(tax), 1),
+    Contam_reads   = sum(contam$total_reads),
+    Contam_read_pct = round(100 * sum(contam$total_reads) / sum(tax$total_reads), 1)
+  )
+}
+
+comparison <- bind_rows(
+  summarise_mambird(ps_syntax_cs,     "CS           | Syntax (no mam/bird classification)"),
+  summarise_mambird(ps_ncbi_cs,       "CS           | NCBI"),
+  summarise_mambird(ps_syntax_others, "Other (port) | Syntax (no mam/bird classification)"),
+  summarise_mambird(ps_ncbi_others,   "Other (port) | NCBI")
+)
+cat("\n=== CS vs Other: Mammal/Bird Contamination (cetaceans/pinnipeds excluded) ===\n")
+print(comparison, row.names = FALSE)
+
+# ── Dotplot + boxplot ─────────────────────────────────────────────────────────
+sample_mambird_pct <- function(ps, taxonomy) {
+  x       <- get_tax_reads(ps)
+  tax     <- x$tax
+  otu_mat <- x$otu_mat
+  tax[]   <- lapply(tax, function(col) ifelse(is.na(col), "NA", col))
+  
+  contam_otus   <- rownames(tax)[is_contaminant(tax)]
+  sample_totals <- colSums(otu_mat)
+  contam_reads  <- if (length(contam_otus) > 0) {
+    colSums(otu_mat[contam_otus, , drop = FALSE])
+  } else {
+    rep(0, ncol(otu_mat))
+  }
+  
+  data.frame(
+    Sample   = colnames(otu_mat),
+    Project  = as.character(sample_data(ps)$Sampling.area.Project),
+    Taxonomy = taxonomy,
+    MB_pct   = 100 * contam_reads / sample_totals
+  )
+}
+
+plot_df <- bind_rows(
+  sample_mambird_pct(ps_syntax_cs,     "Syntax"),
+  sample_mambird_pct(ps_ncbi_cs,       "NCBI"),
+  sample_mambird_pct(ps_syntax_others, "Syntax"),
+  sample_mambird_pct(ps_ncbi_others,   "NCBI")
+)
+
+p1 <- ggplot(plot_df, aes(x = Project, y = MB_pct, colour = Taxonomy)) +
+  geom_boxplot(outlier.shape = NA, width = 0.4,
+               position = position_dodge(width = 0.6), alpha = 0.3) +
+  geom_jitter(position = position_jitterdodge(jitter.width = 0.15, dodge.width = 0.6),
+              size = 1.5, alpha = 0.2) +
+  scale_colour_manual(values = c("Syntax" = "#E69F00", "NCBI" = "#0072B2")) +
+  scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 25)) +
+  labs(
+    title   = "Mammal/bird contamination per sample by project",
+    subtitle = "Cetaceans and pinnipeds excluded from contamination count",
+    x       = NULL,
+    y       = "% reads assigned to contaminant Mammalia/Aves",
+    colour  = "Taxonomy"
+  ) +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ggsave("Figures/mambird_contamination_by_project.png", 
+       plot = p1, 
+       width = 11, height = 7, dpi = 300)
+ 
+# ── Marine mammal summary by strata ──────────────────────────────────────────
+summarise_marine_mammals <- function(ps, label) {
+  x       <- get_tax_reads(ps)
+  tax     <- x$tax
+  otu_mat <- x$otu_mat
+  tax[]   <- lapply(tax, function(col) ifelse(is.na(col), "NA", col))
+  
+  mm_otus <- rownames(tax)[tax$Class == "Mammalia" & tax$Family %in% MARINE_MAMMAL_FAMILIES]
+  if (length(mm_otus) == 0) return(NULL)
+  
+  sd        <- as.data.frame(sample_data(ps))
+  project   <- sd$Sampling.area.Project
+  country   <- sd$Sampling.area.Country
+  biosample <- sd$Name
+  group     <- paste(project, "|||", country)
+  
+  lapply(mm_otus, function(otu) {
+    otu_reads <- otu_mat[otu, ]
+    
+    split(seq_along(group), group) %>%
+      lapply(function(idx) {
+        reads_grp   <- otu_reads[idx]
+        bio_grp     <- biosample[idx]
+        data.frame(
+          total_reads = sum(reads_grp),
+          n_pcr_pos   = sum(reads_grp > 0),
+          n_pcr_total = length(reads_grp),
+          n_bio_pos   = length(unique(bio_grp[reads_grp > 0])),
+          n_bio_total = length(unique(bio_grp))
+        )
+      }) %>%
+      bind_rows(.id = "group_key") %>%
+      filter(total_reads > 0) %>%
+      tidyr::separate(group_key, into = c("Sampling.area.Project", "Sampling.area.Country"),
+                      sep = " \\|\\|\\| ") %>%
+      mutate(
+        Strata  = label,
+        OTU     = otu,
+        Order   = tax[otu, "Order"],
+        Family  = tax[otu, "Family"],
+        Genus   = tax[otu, "Genus"],
+        Species = tax[otu, "Species"]
+      )
+  }) %>%
+    bind_rows()
+}
+
+mm_summary <- bind_rows(
+  summarise_marine_mammals(ps_syntax_cs,     "CS           | Syntax"),
+  summarise_marine_mammals(ps_ncbi_cs,       "CS           | NCBI"),
+  summarise_marine_mammals(ps_syntax_others, "Other (port) | Syntax"),
+  summarise_marine_mammals(ps_ncbi_others,   "Other (port) | NCBI")
+) %>%
+  mutate(
+    Biosamples = paste0(n_bio_pos, " (", n_bio_total, ")"),
+    PCRs       = paste0(n_pcr_pos, " (", n_pcr_total, ")")
+  ) %>%
+  select(Strata, Sampling.area.Project, Sampling.area.Country,
+         OTU, Order, Family, Genus, Species,
+         total_reads, Biosamples, PCRs) %>%
+  arrange(OTU, Strata, Sampling.area.Project, Sampling.area.Country, desc(total_reads))
+
+mm_summary %>%
+  knitr::kable(
+    format    = "simple",
+    col.names = c("Strata", "Project", "Country", "OTU", "Order", "Family",
+                  "Genus", "Species", "Reads", "Biosamples +ve", "PCRs +ve"),
+    align     = c("l","l","l","l","l","l","l","l","r","r","r")
+  ) %>%
+  print()
+
+### Extrac sequences for BLAST # ── Extract sequences for marine mammal OTUs ──────────────────────────────────
+mm_otus_unique <- unique(mm_summary$OTU)
+
+# ps_ncbi holds refseq for all OTUs - use it as the sequence source
+mm_seqs <- refseq(ps_ncbi)[mm_otus_unique]
+
+cat("\n=== Marine mammal OTU sequences ===\n")
+for (otu in names(mm_seqs)) {
+  tax_row <- as.data.frame(tax_table(ps_ncbi))[otu, ]
+  cat(">", otu, "|", 
+      paste(tax_row$Family, tax_row$Genus, tax_row$Species, sep = " "), "\n",
+      as.character(mm_seqs[[otu]]), "\n\n", sep = "")
+}
+
+## Note that otu1813|Phocidae is 100% match to harbour seals
+
+## Note that otu185|Delphinidae is 99.38% match to four Stenella species, only one of which has any records in the north sea (S. coeruleoalba) at all, with occassional vagrant
+## Denmark/Northern German coast records. This is most likely tagjumps and/or low level lab contamination for the DNA occurrence from Poland & Finland. 

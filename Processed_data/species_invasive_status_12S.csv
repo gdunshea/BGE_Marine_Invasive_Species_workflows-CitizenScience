@@ -1,0 +1,940 @@
+Species,Location,EASIN_status,GISD_status,invasive_flag
+Alcyonidioides mytili,Denmark,No_EASIN_data,Alcyonidioides mytili; Not in GISD,GISD_listed_globally
+Alteromonas ulvae,Denmark,No_EASIN_data,Alteromonas ulvae; Not in GISD,GISD_listed_globally
+Aphia minuta,Denmark,No_EASIN_data,Aphia minuta; Not in GISD,GISD_listed_globally
+Asterias rubens,Denmark,No_EASIN_data,Asterias rubens; Not in GISD,GISD_listed_globally
+Bos taurus,Denmark,No_EASIN_data,Bos taurus; Invasive,GISD_listed_globally
+Canis lupus,Denmark,No_EASIN_data,Canis lupus; Invasive,GISD_listed_globally
+Chaetopterus variopedatus,Denmark,No_EASIN_data,Chaetopterus variopedatus; Not in GISD,GISD_listed_globally
+Clupea harengus,Denmark,No_EASIN_data,Clupea harengus; Not in GISD,GISD_listed_globally
+Ctenolabrus rupestris,Denmark,No_EASIN_data,Ctenolabrus rupestris; Not in GISD,GISD_listed_globally
+Dicentrarchus labrax,Denmark,No_EASIN_data,Dicentrarchus labrax; Not in GISD,GISD_listed_globally
+Elysia viridis,Denmark,No_EASIN_data,Elysia viridis; Not in GISD,GISD_listed_globally
+Gasterosteus aculeatus,Denmark,No_EASIN_data,Gasterosteus aculeatus; Not in GISD,GISD_listed_globally
+Gobius niger,Denmark,No_EASIN_data,Gobius niger; Not in GISD,GISD_listed_globally
+Gobiusculus flavescens,Denmark,No_EASIN_data,Gobiusculus flavescens; Not in GISD,GISD_listed_globally
+Gymnocephalus cernua,Denmark,No_EASIN_data,Gymnocephalus cernua; Not in GISD,GISD_listed_globally
+Homo sapiens,Denmark,No_EASIN_data,Homo sapiens; Not in GISD,GISD_listed_globally
+Littorina littorea,Denmark,No_EASIN_data,Littorina littorea; Invasive,GISD_listed_globally
+Neogobius melanostomus,Denmark,No_EASIN_data,Neogobius melanostomus; Invasive,GISD_listed_globally
+Paracentrotus lividus,Denmark,No_EASIN_data,Paracentrotus lividus; Not in GISD,GISD_listed_globally
+Perca fluviatilis,Denmark,No_EASIN_data,Perca fluviatilis; Invasive,GISD_listed_globally
+Pomatoschistus microps,Denmark,No_EASIN_data,Pomatoschistus microps; Not in GISD,GISD_listed_globally
+Pomatoschistus minutus,Denmark,No_EASIN_data,Pomatoschistus minutus; Not in GISD,GISD_listed_globally
+Sardina pilchardus,Denmark,No_EASIN_data,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Scomber scombrus,Denmark,No_EASIN_data,Scomber scombrus; Not in GISD,GISD_listed_globally
+Syngnathus typhle,Denmark,No_EASIN_data,Syngnathus typhle; Not in GISD,GISD_listed_globally
+Taurulus bubalis,Denmark,No_EASIN_data,Taurulus bubalis; Not in GISD,GISD_listed_globally
+Vibrio crassostreae,Denmark,No_EASIN_data,Vibrio crassostreae; Not in GISD,GISD_listed_globally
+Abramis brama,Finland,No_EASIN_data,Abramis brama; Not in GISD,GISD_listed_globally
+Anodonta anatina,Finland,No_EASIN_data,Anodonta anatina; Not in GISD,GISD_listed_globally
+Aplysia vaccaria,Finland,No_EASIN_data,Aplysia vaccaria; Not in GISD,GISD_listed_globally
+Arenicola marina,Finland,No_EASIN_data,Arenicola marina; Not in GISD,GISD_listed_globally
+Atherina boyeri,Finland,No_EASIN_data,Atherina boyeri; Not in GISD,GISD_listed_globally
+Bos taurus,Finland,No_EASIN_data,Bos taurus; Invasive,GISD_listed_globally
+Canis lupus,Finland,No_EASIN_data,Canis lupus; Invasive,GISD_listed_globally
+Chelon auratus,Finland,No_EASIN_data,Chelon auratus; Not in GISD,GISD_listed_globally
+Chelon saliens,Finland,No_EASIN_data,Chelon saliens; Not in GISD,GISD_listed_globally
+Dicentrarchus labrax,Finland,No_EASIN_data,Dicentrarchus labrax; Not in GISD,GISD_listed_globally
+Emberiza schoeniclus,Finland,No_EASIN_data,Emberiza schoeniclus; Not in GISD,GISD_listed_globally
+Engraulis encrasicolus,Finland,No_EASIN_data,Engraulis encrasicolus; Not in GISD,GISD_listed_globally
+Gymnocephalus cernua,Finland,No_EASIN_data,Gymnocephalus cernua; Not in GISD,GISD_listed_globally
+Holothuria poli,Finland,No_EASIN_data,Holothuria poli; Not in GISD,GISD_listed_globally
+Homo sapiens,Finland,No_EASIN_data,Homo sapiens; Not in GISD,GISD_listed_globally
+Lelliottia amnigena,Finland,No_EASIN_data,Lelliottia amnigena; Not in GISD,GISD_listed_globally
+Melarhaphe neritoides,Finland,No_EASIN_data,Melarhaphe neritoides; Not in GISD,GISD_listed_globally
+Naria spurca,Finland,No_EASIN_data,Naria spurca; Not in GISD,GISD_listed_globally
+Neogobius melanostomus,Finland,No_EASIN_data,Neogobius melanostomus; Invasive,GISD_listed_globally
+Osmerus eperlanus,Finland,No_EASIN_data,Osmerus eperlanus; Not in GISD,GISD_listed_globally
+Parablennius gattorugine,Finland,No_EASIN_data,Parablennius gattorugine; Not in GISD,GISD_listed_globally
+Paracentrotus lividus,Finland,No_EASIN_data,Paracentrotus lividus; Not in GISD,GISD_listed_globally
+Perca fluviatilis,Finland,No_EASIN_data,Perca fluviatilis; Invasive,GISD_listed_globally
+Pomatoschistus minutus,Finland,No_EASIN_data,Pomatoschistus minutus; Not in GISD,GISD_listed_globally
+Potamopyrgus antipodarum,Finland,No_EASIN_data,Potamopyrgus antipodarum; Invasive,GISD_listed_globally
+Rhithropanopeus harrisii,Finland,No_EASIN_data,Rhithropanopeus harrisii; Invasive,GISD_listed_globally
+Sardina pilchardus,Finland,No_EASIN_data,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Sparus aurata,Finland,No_EASIN_data,Sparus aurata; Invasive,GISD_listed_globally
+Tinca tinca,Finland,No_EASIN_data,Tinca tinca; Invasive,GISD_listed_globally
+Tritia incrassata,Finland,No_EASIN_data,Tritia incrassata; Not in GISD,GISD_listed_globally
+Unio tumidus,Finland,No_EASIN_data,Unio tumidus; Not in GISD,GISD_listed_globally
+Abra alba,France,Not_listed,Abra alba; Not in GISD,GISD_listed_globally
+Acanthochitona fascicularis,France,Not_listed,Acanthochitona fascicularis; Not in GISD,GISD_listed_globally
+Asterias rubens,France,Not_listed,Asterias rubens; Not in GISD,GISD_listed_globally
+Astropecten irregularis,France,Not_listed,Astropecten irregularis; Not in GISD,GISD_listed_globally
+Atherina boyeri,France,Not_listed,Atherina boyeri; Not in GISD,GISD_listed_globally
+Belone belone,France,Not_listed,Belone belone; Not in GISD,GISD_listed_globally
+Canis lupus,France,Not_listed,Canis lupus; Invasive,GISD_listed_globally
+Carcinus maenas,France,Not_listed,Carcinus maenas; Invasive,GISD_listed_globally
+Chelon auratus,France,Not_listed,Chelon auratus; Not in GISD,GISD_listed_globally
+Chelon saliens,France,Not_listed,Chelon saliens; Not in GISD,GISD_listed_globally
+Chthamalus stellatus,France,Not_listed,Chthamalus stellatus; Not in GISD,GISD_listed_globally
+Clupea harengus,France,Not_listed,Clupea harengus; Not in GISD,GISD_listed_globally
+Columbella rustica,France,Not_listed,Columbella rustica; Not in GISD,GISD_listed_globally
+Dicentrarchus labrax,France,Not_listed,Dicentrarchus labrax; Not in GISD,GISD_listed_globally
+Dicentrarchus punctatus,France,Not_listed,Dicentrarchus punctatus; Not in GISD,GISD_listed_globally
+Diplodus vulgaris,France,Not_listed,Diplodus vulgaris; Not in GISD,GISD_listed_globally
+Echinocardium cordatum,France,Not_listed,Echinocardium cordatum; Not in GISD,GISD_listed_globally
+Engraulis encrasicolus,France,Not_listed,Engraulis encrasicolus; Not in GISD,GISD_listed_globally
+Felis catus,France,Not_listed,Felis catus; Invasive,GISD_listed_globally
+Gallus gallus,France,Not_listed,Gallus gallus; Invasive,GISD_listed_globally
+Gobius cobitis,France,Not_listed,Gobius cobitis; Not in GISD,GISD_listed_globally
+Gobius paganellus,France,Not_listed,Gobius paganellus; Not in GISD,GISD_listed_globally
+Homo sapiens,France,Not_listed,Homo sapiens; Not in GISD,GISD_listed_globally
+Melarhaphe neritoides,France,Not_listed,Melarhaphe neritoides; Not in GISD,GISD_listed_globally
+Mugil cephalus,France,Not_listed,Mugil cephalus; Not in GISD,GISD_listed_globally
+Myliobatis aquila,France,Not_listed,Myliobatis aquila; Not in GISD,GISD_listed_globally
+Parablennius gattorugine,France,Not_listed,Parablennius gattorugine; Not in GISD,GISD_listed_globally
+Paracentrotus lividus,France,Not_listed,Paracentrotus lividus; Not in GISD,GISD_listed_globally
+Patella caerulea,France,Not_listed,Patella caerulea; Not in GISD,GISD_listed_globally
+Patella ulyssiponensis,France,Not_listed,Patella ulyssiponensis; Not in GISD,GISD_listed_globally
+Perca fluviatilis,France,Not_listed,Perca fluviatilis; Invasive,GISD_listed_globally
+Phorcus turbinatus,France,Not_listed,Phorcus turbinatus; Not in GISD,GISD_listed_globally
+Plagioecia patina,France,Not_listed,Plagioecia patina; Not in GISD,GISD_listed_globally
+Platynereis dumerilii,France,Not_listed,Platynereis dumerilii; Not in GISD,GISD_listed_globally
+Sardina pilchardus,France,Not_listed,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Sparus aurata,France,Not_listed,Sparus aurata; Invasive,GISD_listed_globally
+Symphodus melops,France,Not_listed,Symphodus melops; Not in GISD,GISD_listed_globally
+Tripterygion delaisi,France,Not_listed,Tripterygion delaisi; Not in GISD,GISD_listed_globally
+Watersipora subatra,France,Not_listed,Watersipora subatra; Not in GISD,GISD_listed_globally
+Aphia minuta,Germany,No_EASIN_data,Aphia minuta; Not in GISD,GISD_listed_globally
+Aurelia aurita,Germany,No_EASIN_data,Aurelia aurita; Not in GISD,GISD_listed_globally
+Aythya marila,Germany,No_EASIN_data,Aythya marila; Not in GISD,GISD_listed_globally
+Canis lupus,Germany,No_EASIN_data,Canis lupus; Invasive,GISD_listed_globally
+Clangula hyemalis,Germany,No_EASIN_data,Clangula hyemalis; Not in GISD,GISD_listed_globally
+Clupea harengus,Germany,No_EASIN_data,Clupea harengus; Not in GISD,GISD_listed_globally
+Gallus gallus,Germany,No_EASIN_data,Gallus gallus; Invasive,GISD_listed_globally
+Gasterosteus aculeatus,Germany,No_EASIN_data,Gasterosteus aculeatus; Not in GISD,GISD_listed_globally
+Gobius niger,Germany,No_EASIN_data,Gobius niger; Not in GISD,GISD_listed_globally
+Gobiusculus flavescens,Germany,No_EASIN_data,Gobiusculus flavescens; Not in GISD,GISD_listed_globally
+Homo sapiens,Germany,No_EASIN_data,Homo sapiens; Not in GISD,GISD_listed_globally
+Melanitta americana,Germany,No_EASIN_data,Melanitta americana; Not in GISD,GISD_listed_globally
+Mya arenaria,Germany,No_EASIN_data,Mya arenaria; Invasive,GISD_listed_globally
+Neogobius melanostomus,Germany,No_EASIN_data,Neogobius melanostomus; Invasive,GISD_listed_globally
+Pholis gunnellus,Germany,No_EASIN_data,Pholis gunnellus; Not in GISD,GISD_listed_globally
+Podiceps cristatus,Germany,No_EASIN_data,Podiceps cristatus; Not in GISD,GISD_listed_globally
+Pomatoschistus minutus,Germany,No_EASIN_data,Pomatoschistus minutus; Not in GISD,GISD_listed_globally
+Rhithropanopeus harrisii,Germany,No_EASIN_data,Rhithropanopeus harrisii; Invasive,GISD_listed_globally
+Syngnathus typhle,Germany,No_EASIN_data,Syngnathus typhle; Not in GISD,GISD_listed_globally
+Taurulus bubalis,Germany,No_EASIN_data,Taurulus bubalis; Not in GISD,GISD_listed_globally
+Amathia verticillata,Greece,No_EASIN_data,Amathia verticillata; Not in GISD,GISD_listed_globally
+Amphibalanus amphitrite,Greece,No_EASIN_data,Amphibalanus amphitrite; Not in GISD,GISD_listed_globally
+Anthias anthias,Greece,No_EASIN_data,Anthias anthias; Not in GISD,GISD_listed_globally
+Artemia urmiana,Greece,No_EASIN_data,Artemia urmiana; Not in GISD,GISD_listed_globally
+Astropecten aranciacus,Greece,No_EASIN_data,Astropecten aranciacus; Not in GISD,GISD_listed_globally
+Astropecten irregularis,Greece,No_EASIN_data,Astropecten irregularis; Not in GISD,GISD_listed_globally
+Astropecten spinulosus,Greece,No_EASIN_data,Astropecten spinulosus; Not in GISD,GISD_listed_globally
+Atherina boyeri,Greece,No_EASIN_data,Atherina boyeri; Not in GISD,GISD_listed_globally
+Atherina hepsetus,Greece,No_EASIN_data,Atherina hepsetus; Not in GISD,GISD_listed_globally
+Bacteroides caccae,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Balanus trigonus,Greece,No_EASIN_data,Balanus trigonus; Not in GISD,GISD_listed_globally
+Belone belone,Greece,No_EASIN_data,Belone belone; Not in GISD,GISD_listed_globally
+Boops boops,Greece,No_EASIN_data,Boops boops; Not in GISD,GISD_listed_globally
+Bos taurus,Greece,No_EASIN_data,Bos taurus; Invasive,GISD_listed_globally
+Callinectes sapidus,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Canis lupus,Greece,No_EASIN_data,Canis lupus; Invasive,GISD_listed_globally
+Capra hircus,Greece,No_EASIN_data,Capra hircus; Invasive,GISD_listed_globally
+Caranx crysos,Greece,No_EASIN_data,Caranx crysos; Not in GISD,GISD_listed_globally
+Caranx rhonchus,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Caretta caretta,Greece,No_EASIN_data,Caretta caretta; Not in GISD,GISD_listed_globally
+Chaetopterus variopedatus,Greece,No_EASIN_data,Chaetopterus variopedatus; Not in GISD,GISD_listed_globally
+Chelon auratus,Greece,No_EASIN_data,Chelon auratus; Not in GISD,GISD_listed_globally
+Chelon saliens,Greece,No_EASIN_data,Chelon saliens; Not in GISD,GISD_listed_globally
+Clinitrachus argentatus,Greece,No_EASIN_data,Clinitrachus argentatus; Not in GISD,GISD_listed_globally
+Cloeon dipterum,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Columba livia,Greece,No_EASIN_data,Columba livia; Invasive,GISD_listed_globally
+Columbella rustica,Greece,No_EASIN_data,Columbella rustica; Not in GISD,GISD_listed_globally
+Conger conger,Greece,No_EASIN_data,Conger conger; Not in GISD,GISD_listed_globally
+Conus ventricosus,Greece,No_EASIN_data,Conus ventricosus; Not in GISD,GISD_listed_globally
+Cyclothone braueri,Greece,No_EASIN_data,Cyclothone braueri; Not in GISD,GISD_listed_globally
+Dasyatis pastinaca,Greece,No_EASIN_data,Dasyatis pastinaca; Not in GISD,GISD_listed_globally
+Diaphus metopoclampus,Greece,No_EASIN_data,Diaphus metopoclampus; Not in GISD,GISD_listed_globally
+Diaphus rafinesquii,Greece,No_EASIN_data,Diaphus rafinesquii; Not in GISD,GISD_listed_globally
+Dicentrarchus labrax,Greece,No_EASIN_data,Dicentrarchus labrax; Not in GISD,GISD_listed_globally
+Diogenes pugilator,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Diplodus puntazzo,Greece,No_EASIN_data,Diplodus puntazzo; Not in GISD,GISD_listed_globally
+Diplodus vulgaris,Greece,No_EASIN_data,Diplodus vulgaris; Not in GISD,GISD_listed_globally
+Engraulis encrasicolus,Greece,No_EASIN_data,Engraulis encrasicolus; Not in GISD,GISD_listed_globally
+Epinephelus marginatus,Greece,No_EASIN_data,Epinephelus marginatus; Not in GISD,GISD_listed_globally
+Eriphia verrucosa,Greece,No_EASIN_data,Eriphia verrucosa; Not in GISD,GISD_listed_globally
+Felimare picta,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Felis catus,Greece,No_EASIN_data,Felis catus; Invasive,GISD_listed_globally
+Fistularia commersonii,Greece,No_EASIN_data,Fistularia commersonii; Not in GISD,GISD_listed_globally
+Gallus gallus,Greece,No_EASIN_data,Gallus gallus; Invasive,GISD_listed_globally
+Gobius cobitis,Greece,No_EASIN_data,Gobius cobitis; Not in GISD,GISD_listed_globally
+Gobius niger,Greece,No_EASIN_data,Gobius niger; Not in GISD,GISD_listed_globally
+Gobius paganellus,Greece,No_EASIN_data,Gobius paganellus; Not in GISD,GISD_listed_globally
+Gymnothorax unicolor,Greece,No_EASIN_data,Gymnothorax unicolor; Not in GISD,GISD_listed_globally
+Hippocampus guttulatus,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Holothuria poli,Greece,No_EASIN_data,Holothuria poli; Not in GISD,GISD_listed_globally
+Homo sapiens,Greece,No_EASIN_data,Homo sapiens; Not in GISD,GISD_listed_globally
+Hymeniacidon sinapium,Greece,No_EASIN_data,Hymeniacidon sinapium; Not in GISD,GISD_listed_globally
+Ichthyococcus elongatus,Greece,No_EASIN_data,Ichthyococcus elongatus; Not in GISD,GISD_listed_globally
+Ischnochiton rissoi,Greece,No_EASIN_data,Ischnochiton rissoi; Not in GISD,GISD_listed_globally
+Kryptoperidinium triquetrum,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Lagocephalus sceleratus,Greece,No_EASIN_data,Lagocephalus sceleratus; Not in GISD,GISD_listed_globally
+Lampanyctus pusillus,Greece,No_EASIN_data,Lampanyctus pusillus; Not in GISD,GISD_listed_globally
+Lineus sanguineus,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Loripes lacteus,Greece,No_EASIN_data,Loripes lacteus; Not in GISD,GISD_listed_globally
+Melarhaphe neritoides,Greece,No_EASIN_data,Melarhaphe neritoides; Not in GISD,GISD_listed_globally
+Mitra cornicula,Greece,No_EASIN_data,Mitra cornicula; Not in GISD,GISD_listed_globally
+Mugil cephalus,Greece,No_EASIN_data,Mugil cephalus; Not in GISD,GISD_listed_globally
+Mullus surmuletus,Greece,No_EASIN_data,Mullus surmuletus; Not in GISD,GISD_listed_globally
+Muraena helena,Greece,No_EASIN_data,Muraena helena; Not in GISD,GISD_listed_globally
+Nassarius nitidus,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Oedalechilus labeo,Greece,No_EASIN_data,Oedalechilus labeo; Not in GISD,GISD_listed_globally
+Ovis aries,Greece,No_EASIN_data,Ovis aries; Invasive,GISD_listed_globally
+Oxyurichthys papuensis,Greece,No_EASIN_data,Oxyurichthys papuensis; Not in GISD,GISD_listed_globally
+Pagellus acarne,Greece,No_EASIN_data,Pagellus acarne; Not in GISD,GISD_listed_globally
+Parablennius gattorugine,Greece,No_EASIN_data,Parablennius gattorugine; Not in GISD,GISD_listed_globally
+Paracentrotus lividus,Greece,No_EASIN_data,Paracentrotus lividus; Not in GISD,GISD_listed_globally
+Parupeneus margaritatus,Greece,No_EASIN_data,Parupeneus margaritatus; Not in GISD,GISD_listed_globally
+Patella caerulea,Greece,No_EASIN_data,Patella caerulea; Not in GISD,GISD_listed_globally
+Patella ulyssiponensis,Greece,No_EASIN_data,Patella ulyssiponensis; Not in GISD,GISD_listed_globally
+Phalacrocorax aristotelis,Greece,No_EASIN_data,Phalacrocorax aristotelis; Not in GISD,GISD_listed_globally
+Platynereis dumerilii,Greece,No_EASIN_data,Platynereis dumerilii; Not in GISD,GISD_listed_globally
+Polycera hedgpethi,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Pomatomus saltator,Greece,No_EASIN_data,Pomatomus saltator; Not in GISD,GISD_listed_globally
+Prionospio sanmartini,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Pteragogus trispilus,Greece,No_EASIN_data,Pteragogus trispilus; Not in GISD,GISD_listed_globally
+Pterois miles,Greece,No_EASIN_data,Pterois miles; Not in GISD,GISD_listed_globally
+Raja miraletus,Greece,No_EASIN_data,Raja miraletus; Not in GISD,GISD_listed_globally
+Rattus norvegicus,Greece,No_EASIN_data,Rattus norvegicus; Invasive,GISD_listed_globally
+Rattus rattus,Greece,No_EASIN_data,Rattus rattus; Invasive,GISD_listed_globally
+Rostroraja alba,Greece,No_EASIN_data,Rostroraja alba; Not in GISD,GISD_listed_globally
+Salariopsis fluviatilis,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Sardina pilchardus,Greece,No_EASIN_data,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Scartella cristata,Greece,No_EASIN_data,Scartella cristata; Not in GISD,GISD_listed_globally
+Scomber scombrus,Greece,No_EASIN_data,Scomber scombrus; Not in GISD,GISD_listed_globally
+Scorpaena porcus,Greece,No_EASIN_data,Scorpaena porcus; Not in GISD,GISD_listed_globally
+Scyliorhinus canicula,Greece,No_EASIN_data,Scyliorhinus canicula; Not in GISD,GISD_listed_globally
+Seriola dumerili,Greece,No_EASIN_data,Seriola dumerili; Not in GISD,GISD_listed_globally
+Serranus cabrilla,Greece,No_EASIN_data,Serranus cabrilla; Not in GISD,GISD_listed_globally
+Sicydium altum,Greece,No_EASIN_data,Sicydium altum; Not in GISD,GISD_listed_globally
+Sparus aurata,Greece,No_EASIN_data,Sparus aurata; Invasive,GISD_listed_globally
+Spondyliosoma cantharus,Greece,No_EASIN_data,Spondyliosoma cantharus; Not in GISD,GISD_listed_globally
+Stramonita haemastoma,Greece,No_EASIN_data,Stramonita haemastoma; Not in GISD,GISD_listed_globally
+Symphodus cinereus,Greece,No_EASIN_data,Symphodus cinereus; Not in GISD,GISD_listed_globally
+Symphodus ocellatus,Greece,No_EASIN_data,Symphodus ocellatus; Not in GISD,GISD_listed_globally
+Symphodus tinca,Greece,No_EASIN_data,Symphodus tinca; Not in GISD,GISD_listed_globally
+Syngnathus typhle,Greece,No_EASIN_data,Syngnathus typhle; Not in GISD,GISD_listed_globally
+Tadarida teniotis,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Tadorna tadorna,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Tendra zostericola,Greece,No_EASIN_data,Invasive,GISD_listed_globally
+Thalassoma pavo,Greece,No_EASIN_data,Thalassoma pavo; Not in GISD,GISD_listed_globally
+Torpedo marmorata,Greece,No_EASIN_data,Torpedo marmorata; Not in GISD,GISD_listed_globally
+Trachinotus ovatus,Greece,No_EASIN_data,Trachinotus ovatus; Not in GISD,GISD_listed_globally
+Tripterygion delaisi,Greece,No_EASIN_data,Tripterygion delaisi; Not in GISD,GISD_listed_globally
+Tursiops truncatus,Greece,No_EASIN_data,Tursiops truncatus; Not in GISD,GISD_listed_globally
+Xyrichtys novacula,Greece,No_EASIN_data,Xyrichtys novacula; Not in GISD,GISD_listed_globally
+Amathia verticillata,Italy,No_EASIN_data,Amathia verticillata; Not in GISD,GISD_listed_globally
+Arbacia lixula,Italy,No_EASIN_data,Arbacia lixula; Not in GISD,GISD_listed_globally
+Astropecten platyacanthus,Italy,No_EASIN_data,Astropecten platyacanthus; Not in GISD,GISD_listed_globally
+Astropecten spinulosus,Italy,No_EASIN_data,Astropecten spinulosus; Not in GISD,GISD_listed_globally
+Atherina boyeri,Italy,No_EASIN_data,Atherina boyeri; Not in GISD,GISD_listed_globally
+Atherina hepsetus,Italy,No_EASIN_data,Atherina hepsetus; Not in GISD,GISD_listed_globally
+Boops boops,Italy,No_EASIN_data,Boops boops; Not in GISD,GISD_listed_globally
+Bos taurus,Italy,No_EASIN_data,Bos taurus; Invasive,GISD_listed_globally
+Capros aper,Italy,No_EASIN_data,Capros aper; Not in GISD,GISD_listed_globally
+Chelon auratus,Italy,No_EASIN_data,Chelon auratus; Not in GISD,GISD_listed_globally
+Chelon saliens,Italy,No_EASIN_data,Chelon saliens; Not in GISD,GISD_listed_globally
+Chlorophthalmus agassizi,Italy,No_EASIN_data,Chlorophthalmus agassizi; Not in GISD,GISD_listed_globally
+Coryphaena hippurus,Italy,No_EASIN_data,Coryphaena hippurus; Not in GISD,GISD_listed_globally
+Cotylorhiza tuberculata,Italy,No_EASIN_data,Cotylorhiza tuberculata; Not in GISD,GISD_listed_globally
+Dicentrarchus labrax,Italy,No_EASIN_data,Dicentrarchus labrax; Not in GISD,GISD_listed_globally
+Diplodus puntazzo,Italy,No_EASIN_data,Diplodus puntazzo; Not in GISD,GISD_listed_globally
+Diplodus vulgaris,Italy,No_EASIN_data,Diplodus vulgaris; Not in GISD,GISD_listed_globally
+Dosidicus gigas,Italy,No_EASIN_data,Dosidicus gigas; Not in GISD,GISD_listed_globally
+Engraulis encrasicolus,Italy,No_EASIN_data,Engraulis encrasicolus; Not in GISD,GISD_listed_globally
+Felis catus,Italy,No_EASIN_data,Felis catus; Invasive,GISD_listed_globally
+Gobius cobitis,Italy,No_EASIN_data,Gobius cobitis; Not in GISD,GISD_listed_globally
+Gobius niger,Italy,No_EASIN_data,Gobius niger; Not in GISD,GISD_listed_globally
+Gobius paganellus,Italy,No_EASIN_data,Gobius paganellus; Not in GISD,GISD_listed_globally
+Hexanchus griseus,Italy,No_EASIN_data,Hexanchus griseus; Not in GISD,GISD_listed_globally
+Holothuria poli,Italy,No_EASIN_data,Holothuria poli; Not in GISD,GISD_listed_globally
+Homo sapiens,Italy,No_EASIN_data,Homo sapiens; Not in GISD,GISD_listed_globally
+Lepidoglyphus destructor,Italy,No_EASIN_data,Lepidoglyphus destructor; Not in GISD,GISD_listed_globally
+Lepidorhombus whiffiagonis,Italy,No_EASIN_data,Lepidorhombus whiffiagonis; Not in GISD,GISD_listed_globally
+Lesueurigobius friesii,Italy,No_EASIN_data,Lesueurigobius friesii; Not in GISD,GISD_listed_globally
+Liposcelis decolor,Italy,No_EASIN_data,Liposcelis decolor; Not in GISD,GISD_listed_globally
+Loripes lacteus,Italy,No_EASIN_data,Loripes lacteus; Not in GISD,GISD_listed_globally
+Maja crispata,Italy,No_EASIN_data,Maja crispata; Not in GISD,GISD_listed_globally
+Merluccius merluccius,Italy,No_EASIN_data,Merluccius merluccius; Not in GISD,GISD_listed_globally
+Mugil cephalus,Italy,No_EASIN_data,Mugil cephalus; Not in GISD,GISD_listed_globally
+Mullus surmuletus,Italy,No_EASIN_data,Mullus surmuletus; Not in GISD,GISD_listed_globally
+Muraena helena,Italy,No_EASIN_data,Muraena helena; Not in GISD,GISD_listed_globally
+Naria spurca,Italy,No_EASIN_data,Naria spurca; Not in GISD,GISD_listed_globally
+Octopus vulgaris,Italy,No_EASIN_data,Octopus vulgaris; Not in GISD,GISD_listed_globally
+Oedalechilus labeo,Italy,No_EASIN_data,Oedalechilus labeo; Not in GISD,GISD_listed_globally
+Ovis aries,Italy,No_EASIN_data,Ovis aries; Invasive,GISD_listed_globally
+Pagellus erythrinus,Italy,No_EASIN_data,Pagellus erythrinus; Not in GISD,GISD_listed_globally
+Parablennius gattorugine,Italy,No_EASIN_data,Parablennius gattorugine; Not in GISD,GISD_listed_globally
+Paracentrotus lividus,Italy,No_EASIN_data,Paracentrotus lividus; Not in GISD,GISD_listed_globally
+Patella caerulea,Italy,No_EASIN_data,Patella caerulea; Not in GISD,GISD_listed_globally
+Patella ulyssiponensis,Italy,No_EASIN_data,Patella ulyssiponensis; Not in GISD,GISD_listed_globally
+Perca fluviatilis,Italy,No_EASIN_data,Perca fluviatilis; Invasive,GISD_listed_globally
+Pomatomus saltator,Italy,No_EASIN_data,Pomatomus saltator; Not in GISD,GISD_listed_globally
+Sardina pilchardus,Italy,No_EASIN_data,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Scorpaena porcus,Italy,No_EASIN_data,Scorpaena porcus; Not in GISD,GISD_listed_globally
+Scyliorhinus canicula,Italy,No_EASIN_data,Scyliorhinus canicula; Not in GISD,GISD_listed_globally
+Seriola dumerili,Italy,No_EASIN_data,Seriola dumerili; Not in GISD,GISD_listed_globally
+Sparus aurata,Italy,No_EASIN_data,Sparus aurata; Invasive,GISD_listed_globally
+Sylvia atricapilla,Italy,No_EASIN_data,Sylvia atricapilla; Not in GISD,GISD_listed_globally
+Symphodus melops,Italy,No_EASIN_data,Symphodus melops; Not in GISD,GISD_listed_globally
+Symphodus tinca,Italy,No_EASIN_data,Symphodus tinca; Not in GISD,GISD_listed_globally
+Tarantinaea lignaria,Italy,No_EASIN_data,Tarantinaea lignaria; Not in GISD,GISD_listed_globally
+Thalassoma pavo,Italy,No_EASIN_data,Thalassoma pavo; Not in GISD,GISD_listed_globally
+Xiphias gladius,Italy,No_EASIN_data,Xiphias gladius; Not in GISD,GISD_listed_globally
+Xyrichtys novacula,Italy,No_EASIN_data,Xyrichtys novacula; Not in GISD,GISD_listed_globally
+Abramis brama,NA,Country_not_mapped,Abramis brama; Not in GISD,GISD_listed_globally
+Alopochen aegyptiaca,NA,Country_not_mapped,Alopochen aegyptiaca; Not in GISD,GISD_listed_globally
+Citrobacter meridianamericanus,NA,Country_not_mapped,Citrobacter meridianamericanus; Not in GISD,GISD_listed_globally
+Clupea harengus,NA,Country_not_mapped,Clupea harengus; Not in GISD,GISD_listed_globally
+Columba palumbus,NA,Country_not_mapped,Columba palumbus; Not in GISD,GISD_listed_globally
+Cygnus olor,NA,Country_not_mapped,Cygnus olor; Invasive,GISD_listed_globally
+Gallus gallus,NA,Country_not_mapped,Gallus gallus; Invasive,GISD_listed_globally
+Homo sapiens,NA,Country_not_mapped,Homo sapiens; Not in GISD,GISD_listed_globally
+Leuciscus aspius,NA,Country_not_mapped,Leuciscus aspius; Not in GISD,GISD_listed_globally
+Mytilopsis leucophaeata,NA,Country_not_mapped,Mytilopsis leucophaeata; Invasive,GISD_listed_globally
+Neogobius melanostomus,NA,Country_not_mapped,Neogobius melanostomus; Invasive,GISD_listed_globally
+Perca fluviatilis,NA,Country_not_mapped,Perca fluviatilis; Invasive,GISD_listed_globally
+Rhithropanopeus harrisii,NA,Country_not_mapped,Rhithropanopeus harrisii; Invasive,GISD_listed_globally
+Rutilus rutilus,NA,Country_not_mapped,Rutilus rutilus; Invasive,GISD_listed_globally
+Abra alba,Netherlands,No_EASIN_data,Abra alba; Not in GISD,GISD_listed_globally
+Abramis brama,Netherlands,No_EASIN_data,Abramis brama; Not in GISD,GISD_listed_globally
+Alcyonidioides mytili,Netherlands,No_EASIN_data,Alcyonidioides mytili; Not in GISD,GISD_listed_globally
+Alopochen aegyptiaca,Netherlands,No_EASIN_data,Alopochen aegyptiaca; Not in GISD,GISD_listed_globally
+Amathia tertia,Netherlands,No_EASIN_data,Amathia tertia; Not in GISD,GISD_listed_globally
+Ambigolimax valentianus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Amphibalanus improvisus,Netherlands,No_EASIN_data,Amphibalanus improvisus; Not in GISD,GISD_listed_globally
+Anguinella palmata,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Anodonta anatina,Netherlands,No_EASIN_data,Anodonta anatina; Not in GISD,GISD_listed_globally
+Anodonta cygnea,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Aphia minuta,Netherlands,No_EASIN_data,Aphia minuta; Not in GISD,GISD_listed_globally
+Apodemus sylvaticus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Ardea cinerea,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Arenaria interpres,Netherlands,No_EASIN_data,Arenaria interpres; Not in GISD,GISD_listed_globally
+Arenicola marina,Netherlands,No_EASIN_data,Arenicola marina; Not in GISD,GISD_listed_globally
+Asterias rubens,Netherlands,No_EASIN_data,Asterias rubens; Not in GISD,GISD_listed_globally
+Bacteroides caccae,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Barbus barbus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Belone belone,Netherlands,No_EASIN_data,Belone belone; Not in GISD,GISD_listed_globally
+Boccardiella hamata,Netherlands,No_EASIN_data,Boccardiella hamata; Not in GISD,GISD_listed_globally
+Bos taurus,Netherlands,No_EASIN_data,Bos taurus; Invasive,GISD_listed_globally
+Brachionus calyciflorus,Netherlands,No_EASIN_data,Brachionus calyciflorus; Not in GISD,GISD_listed_globally
+Bufo bufo,Netherlands,No_EASIN_data,Bufo bufo; Not in GISD,GISD_listed_globally
+Bugulina stolonifera,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Caenis horaria,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Caenis robusta,Netherlands,No_EASIN_data,Caenis robusta; Not in GISD,GISD_listed_globally
+Canis lupus,Netherlands,No_EASIN_data,Canis lupus; Invasive,GISD_listed_globally
+Caprella mutica,Netherlands,No_EASIN_data,Caprella mutica; Not in GISD,GISD_listed_globally
+Carcinus maenas,Netherlands,No_EASIN_data,Carcinus maenas; Invasive,GISD_listed_globally
+Castor fiber,Netherlands,No_EASIN_data,Castor fiber; Not in GISD,GISD_listed_globally
+Cedecea neteri,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Cervus elaphus,Netherlands,No_EASIN_data,Cervus elaphus; Invasive,GISD_listed_globally
+Chaetogammarus marinus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Chaetopterus variopedatus,Netherlands,No_EASIN_data,Chaetopterus variopedatus; Not in GISD,GISD_listed_globally
+Chelon auratus,Netherlands,No_EASIN_data,Chelon auratus; Not in GISD,GISD_listed_globally
+Chydorus sphaericus,Netherlands,No_EASIN_data,Chydorus sphaericus; Not in GISD,GISD_listed_globally
+Ciliata mustela,Netherlands,No_EASIN_data,Ciliata mustela; Not in GISD,GISD_listed_globally
+Citrobacter meridianamericanus,Netherlands,No_EASIN_data,Citrobacter meridianamericanus; Not in GISD,GISD_listed_globally
+Cloeon dipterum,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Clupea harengus,Netherlands,No_EASIN_data,Clupea harengus; Not in GISD,GISD_listed_globally
+Columba livia,Netherlands,No_EASIN_data,Columba livia; Invasive,GISD_listed_globally
+Columba palumbus,Netherlands,No_EASIN_data,Columba palumbus; Not in GISD,GISD_listed_globally
+Conopeum reticulum,Netherlands,No_EASIN_data,Conopeum reticulum; Not in GISD,GISD_listed_globally
+Cristatella mucedo,Netherlands,No_EASIN_data,Cristatella mucedo; Not in GISD,GISD_listed_globally
+Crocidura russula,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Cygnus olor,Netherlands,No_EASIN_data,Cygnus olor; Invasive,GISD_listed_globally
+Cyprinus carpio,Netherlands,No_EASIN_data,Cyprinus carpio; Invasive,GISD_listed_globally
+Daphnia cucullata,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Dicentrarchus labrax,Netherlands,No_EASIN_data,Dicentrarchus labrax; Not in GISD,GISD_listed_globally
+Dreissena polymorpha,Netherlands,No_EASIN_data,Dreissena polymorpha; Invasive,GISD_listed_globally
+Echinocardium cordatum,Netherlands,No_EASIN_data,Echinocardium cordatum; Not in GISD,GISD_listed_globally
+Elysia viridis,Netherlands,No_EASIN_data,Elysia viridis; Not in GISD,GISD_listed_globally
+Engraulis encrasicolus,Netherlands,No_EASIN_data,Engraulis encrasicolus; Not in GISD,GISD_listed_globally
+Ensis leei,Netherlands,No_EASIN_data,Ensis leei; Not in GISD,GISD_listed_globally
+Eriocheir japonica,Netherlands,No_EASIN_data,Eriocheir japonica; Not in GISD,GISD_listed_globally
+Eriocheir sinensis,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Felis catus,Netherlands,No_EASIN_data,Felis catus; Invasive,GISD_listed_globally
+Fredericella sultana,Netherlands,No_EASIN_data,Fredericella sultana; Not in GISD,GISD_listed_globally
+Gallinula chloropus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Gallus gallus,Netherlands,No_EASIN_data,Gallus gallus; Invasive,GISD_listed_globally
+Gammarus duebeni,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Gasterosteus aculeatus,Netherlands,No_EASIN_data,Gasterosteus aculeatus; Not in GISD,GISD_listed_globally
+Gobiosoma bosc,Netherlands,No_EASIN_data,Gobiosoma bosc; Not in GISD,GISD_listed_globally
+Gobius niger,Netherlands,No_EASIN_data,Gobius niger; Not in GISD,GISD_listed_globally
+Gobius paganellus,Netherlands,No_EASIN_data,Gobius paganellus; Not in GISD,GISD_listed_globally
+Gorilla gorilla,Netherlands,No_EASIN_data,Gorilla gorilla; Not in GISD,GISD_listed_globally
+Halichondria panicea,Netherlands,No_EASIN_data,Halichondria panicea; Not in GISD,GISD_listed_globally
+Haliclona cinerea,Netherlands,No_EASIN_data,Haliclona cinerea; Not in GISD,GISD_listed_globally
+Harmothoe impar,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Hemigrapsus penicillatus,Netherlands,No_EASIN_data,Hemigrapsus penicillatus; Not in GISD,GISD_listed_globally
+Hemigrapsus sanguineus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Hemigrapsus takanoi,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Holothuria poli,Netherlands,No_EASIN_data,Holothuria poli; Not in GISD,GISD_listed_globally
+Homo sapiens,Netherlands,No_EASIN_data,Homo sapiens; Not in GISD,GISD_listed_globally
+Kluyvera intermedia,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Knipowitschia caucasica,Netherlands,No_EASIN_data,Knipowitschia caucasica; Not in GISD,GISD_listed_globally
+Lelliottia amnigena,Netherlands,No_EASIN_data,Lelliottia amnigena; Not in GISD,GISD_listed_globally
+Leptodora kindtii,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Lepus europaeus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Leuciscus aspius,Netherlands,No_EASIN_data,Leuciscus aspius; Not in GISD,GISD_listed_globally
+Liocarcinus depurator,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Lipophrys pholis,Netherlands,No_EASIN_data,Lipophrys pholis; Not in GISD,GISD_listed_globally
+Liposcelis decolor,Netherlands,No_EASIN_data,Liposcelis decolor; Not in GISD,GISD_listed_globally
+Lissotriton vulgaris,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Littorina littorea,Netherlands,No_EASIN_data,Littorina littorea; Invasive,GISD_listed_globally
+Luidia sarsii,Netherlands,No_EASIN_data,Luidia sarsii; Not in GISD,GISD_listed_globally
+Marenzelleria neglecta,Netherlands,No_EASIN_data,Marenzelleria neglecta; Not in GISD,GISD_listed_globally
+Meleagris gallopavo,Netherlands,No_EASIN_data,Meleagris gallopavo; Not in GISD,GISD_listed_globally
+Mesopsocus fuscifrons,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Micromys minutus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Microtus arvalis,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Mya arenaria,Netherlands,No_EASIN_data,Mya arenaria; Invasive,GISD_listed_globally
+Myocastor coypus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Myodes glareolus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Mytilopsis leucophaeata,Netherlands,No_EASIN_data,Mytilopsis leucophaeata; Invasive,GISD_listed_globally
+Neogobius melanostomus,Netherlands,No_EASIN_data,Neogobius melanostomus; Invasive,GISD_listed_globally
+Oreochromis niloticus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Osmerus eperlanus,Netherlands,No_EASIN_data,Osmerus eperlanus; Not in GISD,GISD_listed_globally
+Ovis aries,Netherlands,No_EASIN_data,Ovis aries; Invasive,GISD_listed_globally
+Owenia fusiformis,Netherlands,No_EASIN_data,Owenia fusiformis; Not in GISD,GISD_listed_globally
+Parablennius gattorugine,Netherlands,No_EASIN_data,Parablennius gattorugine; Not in GISD,GISD_listed_globally
+Patella vulgata,Netherlands,No_EASIN_data,Patella vulgata; Not in GISD,GISD_listed_globally
+Perca fluviatilis,Netherlands,No_EASIN_data,Perca fluviatilis; Invasive,GISD_listed_globally
+Pholis gunnellus,Netherlands,No_EASIN_data,Pholis gunnellus; Not in GISD,GISD_listed_globally
+Physella acuta,Netherlands,No_EASIN_data,Physella acuta; Not in GISD,GISD_listed_globally
+Planktomarina temperata,Netherlands,No_EASIN_data,Planktomarina temperata; Not in GISD,GISD_listed_globally
+Podiceps cristatus,Netherlands,No_EASIN_data,Podiceps cristatus; Not in GISD,GISD_listed_globally
+Polyphemus pediculus,Netherlands,No_EASIN_data,Polyphemus pediculus; Not in GISD,GISD_listed_globally
+Pomatoschistus lozanoi,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Pomatoschistus microps,Netherlands,No_EASIN_data,Pomatoschistus microps; Not in GISD,GISD_listed_globally
+Pomatoschistus minutus,Netherlands,No_EASIN_data,Pomatoschistus minutus; Not in GISD,GISD_listed_globally
+Potamopyrgus antipodarum,Netherlands,No_EASIN_data,Potamopyrgus antipodarum; Invasive,GISD_listed_globally
+Proterorhinus semilunaris,Netherlands,No_EASIN_data,Proterorhinus semilunaris; Not in GISD,GISD_listed_globally
+Psittacula krameri,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Rana temporaria,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Raniceps raninus,Netherlands,No_EASIN_data,Raniceps raninus; Not in GISD,GISD_listed_globally
+Rattus norvegicus,Netherlands,No_EASIN_data,Rattus norvegicus; Invasive,GISD_listed_globally
+Rhithropanopeus harrisii,Netherlands,No_EASIN_data,Rhithropanopeus harrisii; Invasive,GISD_listed_globally
+Rutilus rutilus,Netherlands,No_EASIN_data,Rutilus rutilus; Invasive,GISD_listed_globally
+Sancassania berlesei,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Sardina pilchardus,Netherlands,No_EASIN_data,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Scomber scombrus,Netherlands,No_EASIN_data,Scomber scombrus; Not in GISD,GISD_listed_globally
+Scophthalmus maximus,Netherlands,No_EASIN_data,Scophthalmus maximus; Not in GISD,GISD_listed_globally
+Scophthalmus rhombus,Netherlands,No_EASIN_data,Scophthalmus rhombus; Not in GISD,GISD_listed_globally
+Scrobicularia plana,Netherlands,No_EASIN_data,Scrobicularia plana; Not in GISD,GISD_listed_globally
+Semibalanus balanoides,Netherlands,No_EASIN_data,Semibalanus balanoides; Not in GISD,GISD_listed_globally
+Serratella ignita,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Silurus glanis,Netherlands,No_EASIN_data,Silurus glanis; Not in GISD,GISD_listed_globally
+Solea solea,Netherlands,No_EASIN_data,Solea solea; Not in GISD,GISD_listed_globally
+Sturnus vulgaris,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Syngnathus rostellatus,Netherlands,No_EASIN_data,Syngnathus rostellatus; Not in GISD,GISD_listed_globally
+Taurulus bubalis,Netherlands,No_EASIN_data,Taurulus bubalis; Not in GISD,GISD_listed_globally
+Thia scutellata,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Tinca tinca,Netherlands,No_EASIN_data,Tinca tinca; Invasive,GISD_listed_globally
+Tridentiger trigonocephalus,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Trisopterus luscus,Netherlands,No_EASIN_data,Trisopterus luscus; Not in GISD,GISD_listed_globally
+Tritia reticulata,Netherlands,No_EASIN_data,Tritia reticulata; Not in GISD,GISD_listed_globally
+Tubifex tubifex,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Unio pictorum,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Unio tumidus,Netherlands,No_EASIN_data,Unio tumidus; Not in GISD,GISD_listed_globally
+uncultured bacterium,Netherlands,No_EASIN_data,Invasive,GISD_listed_globally
+Abra alba,Norway,No_EASIN_data,Abra alba; Not in GISD,GISD_listed_globally
+Alces alces,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Alcyonidioides mytili,Norway,No_EASIN_data,Alcyonidioides mytili; Not in GISD,GISD_listed_globally
+Amathia tertia,Norway,No_EASIN_data,Amathia tertia; Not in GISD,GISD_listed_globally
+Aphia minuta,Norway,No_EASIN_data,Aphia minuta; Not in GISD,GISD_listed_globally
+Apodemus sylvaticus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Arenicola marina,Norway,No_EASIN_data,Arenicola marina; Not in GISD,GISD_listed_globally
+Arvicola amphibius,Norway,No_EASIN_data,Arvicola amphibius; Not in GISD,GISD_listed_globally
+Asterias rubens,Norway,No_EASIN_data,Asterias rubens; Not in GISD,GISD_listed_globally
+Astropecten irregularis,Norway,No_EASIN_data,Astropecten irregularis; Not in GISD,GISD_listed_globally
+Aurelia aurita,Norway,No_EASIN_data,Aurelia aurita; Not in GISD,GISD_listed_globally
+Bacteroidales bacterium,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Belone belone,Norway,No_EASIN_data,Belone belone; Not in GISD,GISD_listed_globally
+Bos taurus,Norway,No_EASIN_data,Bos taurus; Invasive,GISD_listed_globally
+Buccinum undatum,Norway,No_EASIN_data,Buccinum undatum; Not in GISD,GISD_listed_globally
+Bufo bufo,Norway,No_EASIN_data,Bufo bufo; Not in GISD,GISD_listed_globally
+Caenis horaria,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Calanus finmarchicus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Callionymus reticulatus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Canis lupus,Norway,No_EASIN_data,Canis lupus; Invasive,GISD_listed_globally
+Capra hircus,Norway,No_EASIN_data,Capra hircus; Invasive,GISD_listed_globally
+Caprella mutica,Norway,No_EASIN_data,Caprella mutica; Not in GISD,GISD_listed_globally
+Capreolus capreolus,Norway,No_EASIN_data,Capreolus capreolus; Not in GISD,GISD_listed_globally
+Carcinus maenas,Norway,No_EASIN_data,Carcinus maenas; Invasive,GISD_listed_globally
+Cervus elaphus,Norway,No_EASIN_data,Cervus elaphus; Invasive,GISD_listed_globally
+Chaetogammarus marinus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Chimaera monstrosa,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Chirolophis ascanii,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Chydorus sphaericus,Norway,No_EASIN_data,Chydorus sphaericus; Not in GISD,GISD_listed_globally
+Ciliata mustela,Norway,No_EASIN_data,Ciliata mustela; Not in GISD,GISD_listed_globally
+Ciliata septentrionalis,Norway,No_EASIN_data,Ciliata septentrionalis; Not in GISD,GISD_listed_globally
+Citrobacter freundii,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Clangula hyemalis,Norway,No_EASIN_data,Clangula hyemalis; Not in GISD,GISD_listed_globally
+Clupea harengus,Norway,No_EASIN_data,Clupea harengus; Not in GISD,GISD_listed_globally
+Columba livia,Norway,No_EASIN_data,Columba livia; Invasive,GISD_listed_globally
+Coryphaenoides rupestris,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Cristatella mucedo,Norway,No_EASIN_data,Cristatella mucedo; Not in GISD,GISD_listed_globally
+Crossaster papposus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Crystallogobius linearis,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Ctenolabrus rupestris,Norway,No_EASIN_data,Ctenolabrus rupestris; Not in GISD,GISD_listed_globally
+Cyclopterus lumpus,Norway,No_EASIN_data,Cyclopterus lumpus; Not in GISD,GISD_listed_globally
+Cylisticus convexus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Dendronotus frondosus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Echinocardium cordatum,Norway,No_EASIN_data,Echinocardium cordatum; Not in GISD,GISD_listed_globally
+Elysia viridis,Norway,No_EASIN_data,Elysia viridis; Not in GISD,GISD_listed_globally
+Enchelyopus cimbrius,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Engraulis encrasicolus,Norway,No_EASIN_data,Engraulis encrasicolus; Not in GISD,GISD_listed_globally
+Ephemera danica,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Ephemera vulgata,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Fredericella sultana,Norway,No_EASIN_data,Fredericella sultana; Not in GISD,GISD_listed_globally
+Gadiculus argenteus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Gallus gallus,Norway,No_EASIN_data,Gallus gallus; Invasive,GISD_listed_globally
+Gasterosteus aculeatus,Norway,No_EASIN_data,Gasterosteus aculeatus; Not in GISD,GISD_listed_globally
+Gobius niger,Norway,No_EASIN_data,Gobius niger; Not in GISD,GISD_listed_globally
+Gobiusculus flavescens,Norway,No_EASIN_data,Gobiusculus flavescens; Not in GISD,GISD_listed_globally
+Halichondria panicea,Norway,No_EASIN_data,Halichondria panicea; Not in GISD,GISD_listed_globally
+Heptagenia sulphurea,Norway,No_EASIN_data,Heptagenia sulphurea; Not in GISD,GISD_listed_globally
+Homo sapiens,Norway,No_EASIN_data,Homo sapiens; Not in GISD,GISD_listed_globally
+Isoperla grammatica,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Juxtacribrilina mutabilis,Norway,No_EASIN_data,Juxtacribrilina mutabilis; Not in GISD,GISD_listed_globally
+Lepidochitona cinerea,Norway,No_EASIN_data,Lepidochitona cinerea; Not in GISD,GISD_listed_globally
+Leuctra fusca,Norway,No_EASIN_data,Leuctra fusca; Not in GISD,GISD_listed_globally
+Leuctra nigra,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Liparis montagui,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Lipophrys pholis,Norway,No_EASIN_data,Lipophrys pholis; Not in GISD,GISD_listed_globally
+Liposcelis decolor,Norway,No_EASIN_data,Liposcelis decolor; Not in GISD,GISD_listed_globally
+Littorina littorea,Norway,No_EASIN_data,Littorina littorea; Invasive,GISD_listed_globally
+Littorina obtusata,Norway,No_EASIN_data,Littorina obtusata; Not in GISD,GISD_listed_globally
+Littorina saxatilis,Norway,No_EASIN_data,Littorina saxatilis; Not in GISD,GISD_listed_globally
+Lota lota,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Luidia sarsii,Norway,No_EASIN_data,Luidia sarsii; Not in GISD,GISD_listed_globally
+Lutra lutra,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Magelona mirabilis,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Margaritifera margaritifera,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Marthasterias glacialis,Norway,No_EASIN_data,Marthasterias glacialis; Not in GISD,GISD_listed_globally
+Melanitta americana,Norway,No_EASIN_data,Melanitta americana; Not in GISD,GISD_listed_globally
+Meleagris gallopavo,Norway,No_EASIN_data,Meleagris gallopavo; Not in GISD,GISD_listed_globally
+Meles meles,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Membranipora membranacea,Norway,No_EASIN_data,Membranipora membranacea; Not in GISD,GISD_listed_globally
+Micrenophrys lilljeborgii,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Muscicapa striata,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Myodes glareolus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Nemoura avicularis,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Neogobius melanostomus,Norway,No_EASIN_data,Neogobius melanostomus; Invasive,GISD_listed_globally
+Nerophis lumbriciformis,Norway,No_EASIN_data,Nerophis lumbriciformis; Not in GISD,GISD_listed_globally
+Nigrobaetis niger,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Nucella lapillus,Norway,No_EASIN_data,Nucella lapillus; Not in GISD,GISD_listed_globally
+Ovis aries,Norway,No_EASIN_data,Ovis aries; Invasive,GISD_listed_globally
+Patella pellucida,Norway,No_EASIN_data,Patella pellucida; Not in GISD,GISD_listed_globally
+Patella ulyssiponensis,Norway,No_EASIN_data,Patella ulyssiponensis; Not in GISD,GISD_listed_globally
+Patella vulgata,Norway,No_EASIN_data,Patella vulgata; Not in GISD,GISD_listed_globally
+Perca fluviatilis,Norway,No_EASIN_data,Perca fluviatilis; Invasive,GISD_listed_globally
+Phocoena phocoena,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Pholis gunnellus,Norway,No_EASIN_data,Pholis gunnellus; Not in GISD,GISD_listed_globally
+Physella acuta,Norway,No_EASIN_data,Physella acuta; Not in GISD,GISD_listed_globally
+Polyphemus pediculus,Norway,No_EASIN_data,Polyphemus pediculus; Not in GISD,GISD_listed_globally
+Pomatoschistus microps,Norway,No_EASIN_data,Pomatoschistus microps; Not in GISD,GISD_listed_globally
+Pomatoschistus minutus,Norway,No_EASIN_data,Pomatoschistus minutus; Not in GISD,GISD_listed_globally
+Pomatoschistus pictus,Norway,No_EASIN_data,Pomatoschistus pictus; Not in GISD,GISD_listed_globally
+Proterorhinus semilunaris,Norway,No_EASIN_data,Proterorhinus semilunaris; Not in GISD,GISD_listed_globally
+Rana temporaria,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Rangifer tarandus,Norway,No_EASIN_data,Rangifer tarandus; Invasive,GISD_listed_globally
+Raniceps raninus,Norway,No_EASIN_data,Raniceps raninus; Not in GISD,GISD_listed_globally
+Rattus norvegicus,Norway,No_EASIN_data,Rattus norvegicus; Invasive,GISD_listed_globally
+Salmo salar,Norway,No_EASIN_data,Salmo salar; Invasive,GISD_listed_globally
+Sardina pilchardus,Norway,No_EASIN_data,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Scomber scombrus,Norway,No_EASIN_data,Scomber scombrus; Not in GISD,GISD_listed_globally
+Scophthalmus rhombus,Norway,No_EASIN_data,Scophthalmus rhombus; Not in GISD,GISD_listed_globally
+Scrobicularia plana,Norway,No_EASIN_data,Scrobicularia plana; Not in GISD,GISD_listed_globally
+Semibalanus balanoides,Norway,No_EASIN_data,Semibalanus balanoides; Not in GISD,GISD_listed_globally
+Serratia plymuthica,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Serratia proteamaculans,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Siphlonurus aestivalis,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Siphonoperla burmeisteri,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Sorex araneus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Spinachia spinachia,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Symphodus melops,Norway,No_EASIN_data,Symphodus melops; Not in GISD,GISD_listed_globally
+Syngnathus acus,Norway,No_EASIN_data,Syngnathus acus; Not in GISD,GISD_listed_globally
+Syngnathus typhle,Norway,No_EASIN_data,Syngnathus typhle; Not in GISD,GISD_listed_globally
+Taeniopteryx nebulosa,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Taurulus bubalis,Norway,No_EASIN_data,Taurulus bubalis; Not in GISD,GISD_listed_globally
+Tetrao urogallus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Thorogobius ephippiatus,Norway,No_EASIN_data,Thorogobius ephippiatus; Not in GISD,GISD_listed_globally
+Tripos horridus,Norway,No_EASIN_data,Tripos horridus; Not in GISD,GISD_listed_globally
+Trisopterus esmarkii,Norway,No_EASIN_data,Trisopterus esmarkii; Not in GISD,GISD_listed_globally
+Trisopterus minutus,Norway,No_EASIN_data,Trisopterus minutus; Not in GISD,GISD_listed_globally
+Tritia incrassata,Norway,No_EASIN_data,Tritia incrassata; Not in GISD,GISD_listed_globally
+Xylophaga dorsalis,Norway,No_EASIN_data,Xylophaga dorsalis; Not in GISD,GISD_listed_globally
+Zeugopterus norvegicus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Zeugopterus punctatus,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Zwicknia bifrons,Norway,No_EASIN_data,Invasive,GISD_listed_globally
+Bos taurus,Poland,No_EASIN_data,Bos taurus; Invasive,GISD_listed_globally
+Chaetopterus variopedatus,Poland,No_EASIN_data,Chaetopterus variopedatus; Not in GISD,GISD_listed_globally
+Clupea harengus,Poland,No_EASIN_data,Clupea harengus; Not in GISD,GISD_listed_globally
+Columba livia,Poland,No_EASIN_data,Columba livia; Invasive,GISD_listed_globally
+Dicentrarchus punctatus,Poland,No_EASIN_data,Dicentrarchus punctatus; Not in GISD,GISD_listed_globally
+Gasterosteus aculeatus,Poland,No_EASIN_data,Gasterosteus aculeatus; Not in GISD,GISD_listed_globally
+Gobiusculus flavescens,Poland,No_EASIN_data,Gobiusculus flavescens; Not in GISD,GISD_listed_globally
+Homo sapiens,Poland,No_EASIN_data,Homo sapiens; Not in GISD,GISD_listed_globally
+Myliobatis aquila,Poland,No_EASIN_data,Myliobatis aquila; Not in GISD,GISD_listed_globally
+Neogobius melanostomus,Poland,No_EASIN_data,Neogobius melanostomus; Invasive,GISD_listed_globally
+Pollicipes pollicipes,Poland,No_EASIN_data,Pollicipes pollicipes; Not in GISD,GISD_listed_globally
+Rattus norvegicus,Poland,No_EASIN_data,Rattus norvegicus; Invasive,GISD_listed_globally
+Salmo salar,Poland,No_EASIN_data,Salmo salar; Invasive,GISD_listed_globally
+Sardina pilchardus,Poland,No_EASIN_data,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Tritia incrassata,Poland,No_EASIN_data,Tritia incrassata; Not in GISD,GISD_listed_globally
+Tritia reticulata,Poland,No_EASIN_data,Tritia reticulata; Not in GISD,GISD_listed_globally
+Abra alba,Portugal,No_EASIN_data,Abra alba; Not in GISD,GISD_listed_globally
+Aphia minuta,Portugal,No_EASIN_data,Aphia minuta; Not in GISD,GISD_listed_globally
+Apletodon dentatus,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Aplysia vaccaria,Portugal,No_EASIN_data,Aplysia vaccaria; Not in GISD,GISD_listed_globally
+Arenaria interpres,Portugal,No_EASIN_data,Arenaria interpres; Not in GISD,GISD_listed_globally
+Argyrosomus regius,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Asterias rubens,Portugal,No_EASIN_data,Asterias rubens; Not in GISD,GISD_listed_globally
+Astropecten aranciacus,Portugal,No_EASIN_data,Astropecten aranciacus; Not in GISD,GISD_listed_globally
+Atherina boyeri,Portugal,No_EASIN_data,Atherina boyeri; Not in GISD,GISD_listed_globally
+Balanus trigonus,Portugal,No_EASIN_data,Balanus trigonus; Not in GISD,GISD_listed_globally
+Balistes capriscus,Portugal,No_EASIN_data,Balistes capriscus; Not in GISD,GISD_listed_globally
+Belone belone,Portugal,No_EASIN_data,Belone belone; Not in GISD,GISD_listed_globally
+Boops boops,Portugal,No_EASIN_data,Boops boops; Not in GISD,GISD_listed_globally
+Bos taurus,Portugal,No_EASIN_data,Bos taurus; Invasive,GISD_listed_globally
+Callionymus lyra,Portugal,No_EASIN_data,Callionymus lyra; Not in GISD,GISD_listed_globally
+Canis lupus,Portugal,No_EASIN_data,Canis lupus; Invasive,GISD_listed_globally
+Caranx crysos,Portugal,No_EASIN_data,Caranx crysos; Not in GISD,GISD_listed_globally
+Carcinus maenas,Portugal,No_EASIN_data,Carcinus maenas; Invasive,GISD_listed_globally
+Chaetopterus variopedatus,Portugal,No_EASIN_data,Chaetopterus variopedatus; Not in GISD,GISD_listed_globally
+Chelon auratus,Portugal,No_EASIN_data,Chelon auratus; Not in GISD,GISD_listed_globally
+Chydorus sphaericus,Portugal,No_EASIN_data,Chydorus sphaericus; Not in GISD,GISD_listed_globally
+Ciliata mustela,Portugal,No_EASIN_data,Ciliata mustela; Not in GISD,GISD_listed_globally
+Columba livia,Portugal,No_EASIN_data,Columba livia; Invasive,GISD_listed_globally
+Columba palumbus,Portugal,No_EASIN_data,Columba palumbus; Not in GISD,GISD_listed_globally
+Conger conger,Portugal,No_EASIN_data,Conger conger; Not in GISD,GISD_listed_globally
+Coryphoblennius galerita,Portugal,No_EASIN_data,Coryphoblennius galerita; Not in GISD,GISD_listed_globally
+Ctenolabrus rupestris,Portugal,No_EASIN_data,Ctenolabrus rupestris; Not in GISD,GISD_listed_globally
+Dicentrarchus labrax,Portugal,No_EASIN_data,Dicentrarchus labrax; Not in GISD,GISD_listed_globally
+Dicentrarchus punctatus,Portugal,No_EASIN_data,Dicentrarchus punctatus; Not in GISD,GISD_listed_globally
+Diplodus puntazzo,Portugal,No_EASIN_data,Diplodus puntazzo; Not in GISD,GISD_listed_globally
+Diplodus vulgaris,Portugal,No_EASIN_data,Diplodus vulgaris; Not in GISD,GISD_listed_globally
+Donax trunculus,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Donax vittatus,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Echiichthys vipera,Portugal,No_EASIN_data,Echiichthys vipera; Not in GISD,GISD_listed_globally
+Echinocardium cordatum,Portugal,No_EASIN_data,Echinocardium cordatum; Not in GISD,GISD_listed_globally
+Elysia viridis,Portugal,No_EASIN_data,Elysia viridis; Not in GISD,GISD_listed_globally
+Engraulis encrasicolus,Portugal,No_EASIN_data,Engraulis encrasicolus; Not in GISD,GISD_listed_globally
+Ensis minor,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Epinephelus aeneus,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Felis catus,Portugal,No_EASIN_data,Felis catus; Invasive,GISD_listed_globally
+Fredericella sultana,Portugal,No_EASIN_data,Fredericella sultana; Not in GISD,GISD_listed_globally
+Gallus gallus,Portugal,No_EASIN_data,Gallus gallus; Invasive,GISD_listed_globally
+Gasterosteus aculeatus,Portugal,No_EASIN_data,Gasterosteus aculeatus; Not in GISD,GISD_listed_globally
+Gobio lozanoi,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Gobius cobitis,Portugal,No_EASIN_data,Gobius cobitis; Not in GISD,GISD_listed_globally
+Gobius niger,Portugal,No_EASIN_data,Gobius niger; Not in GISD,GISD_listed_globally
+Gobius paganellus,Portugal,No_EASIN_data,Gobius paganellus; Not in GISD,GISD_listed_globally
+Gobiusculus flavescens,Portugal,No_EASIN_data,Gobiusculus flavescens; Not in GISD,GISD_listed_globally
+Harmothoe impar,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Hermetia illucens,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Holothuria forskali,Portugal,No_EASIN_data,Holothuria forskali; Not in GISD,GISD_listed_globally
+Homo sapiens,Portugal,No_EASIN_data,Homo sapiens; Not in GISD,GISD_listed_globally
+Lepadogaster candolii,Portugal,No_EASIN_data,Lepadogaster candolii; Not in GISD,GISD_listed_globally
+Lepidochitona cinerea,Portugal,No_EASIN_data,Lepidochitona cinerea; Not in GISD,GISD_listed_globally
+Lepidonotus clava,Portugal,No_EASIN_data,Lepidonotus clava; Not in GISD,GISD_listed_globally
+Lipophrys pholis,Portugal,No_EASIN_data,Lipophrys pholis; Not in GISD,GISD_listed_globally
+Littorina littorea,Portugal,No_EASIN_data,Littorina littorea; Invasive,GISD_listed_globally
+Littorina obtusata,Portugal,No_EASIN_data,Littorina obtusata; Not in GISD,GISD_listed_globally
+Marthasterias glacialis,Portugal,No_EASIN_data,Marthasterias glacialis; Not in GISD,GISD_listed_globally
+Melarhaphe neritoides,Portugal,No_EASIN_data,Melarhaphe neritoides; Not in GISD,GISD_listed_globally
+Meleagris gallopavo,Portugal,No_EASIN_data,Meleagris gallopavo; Not in GISD,GISD_listed_globally
+Merluccius merluccius,Portugal,No_EASIN_data,Merluccius merluccius; Not in GISD,GISD_listed_globally
+Micromesistius poutassou,Portugal,No_EASIN_data,Micromesistius poutassou; Not in GISD,GISD_listed_globally
+Mugil cephalus,Portugal,No_EASIN_data,Mugil cephalus; Not in GISD,GISD_listed_globally
+Nassarius nitidus,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Nerophis lumbriciformis,Portugal,No_EASIN_data,Nerophis lumbriciformis; Not in GISD,GISD_listed_globally
+Nucella lapillus,Portugal,No_EASIN_data,Nucella lapillus; Not in GISD,GISD_listed_globally
+Octopus vulgaris,Portugal,No_EASIN_data,Octopus vulgaris; Not in GISD,GISD_listed_globally
+Ovis aries,Portugal,No_EASIN_data,Ovis aries; Invasive,GISD_listed_globally
+Pagellus erythrinus,Portugal,No_EASIN_data,Pagellus erythrinus; Not in GISD,GISD_listed_globally
+Parablennius gattorugine,Portugal,No_EASIN_data,Parablennius gattorugine; Not in GISD,GISD_listed_globally
+Paracentrotus lividus,Portugal,No_EASIN_data,Paracentrotus lividus; Not in GISD,GISD_listed_globally
+Patella pellucida,Portugal,No_EASIN_data,Patella pellucida; Not in GISD,GISD_listed_globally
+Patella ulyssiponensis,Portugal,No_EASIN_data,Patella ulyssiponensis; Not in GISD,GISD_listed_globally
+Patella vulgata,Portugal,No_EASIN_data,Patella vulgata; Not in GISD,GISD_listed_globally
+Pegusa lascaris,Portugal,No_EASIN_data,Pegusa lascaris; Not in GISD,GISD_listed_globally
+Perca fluviatilis,Portugal,No_EASIN_data,Perca fluviatilis; Invasive,GISD_listed_globally
+Physella acuta,Portugal,No_EASIN_data,Physella acuta; Not in GISD,GISD_listed_globally
+Pollicipes pollicipes,Portugal,No_EASIN_data,Pollicipes pollicipes; Not in GISD,GISD_listed_globally
+Polyphemus pediculus,Portugal,No_EASIN_data,Polyphemus pediculus; Not in GISD,GISD_listed_globally
+Polyprion americanus,Portugal,No_EASIN_data,Polyprion americanus; Not in GISD,GISD_listed_globally
+Pomatoschistus lozanoi,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Pomatoschistus microps,Portugal,No_EASIN_data,Pomatoschistus microps; Not in GISD,GISD_listed_globally
+Pomatoschistus minutus,Portugal,No_EASIN_data,Pomatoschistus minutus; Not in GISD,GISD_listed_globally
+Pomatoschistus pictus,Portugal,No_EASIN_data,Pomatoschistus pictus; Not in GISD,GISD_listed_globally
+Potamopyrgus antipodarum,Portugal,No_EASIN_data,Potamopyrgus antipodarum; Invasive,GISD_listed_globally
+Raja brachyura,Portugal,No_EASIN_data,Raja brachyura; Not in GISD,GISD_listed_globally
+Raja undulata,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Rattus norvegicus,Portugal,No_EASIN_data,Rattus norvegicus; Invasive,GISD_listed_globally
+Salmo salar,Portugal,No_EASIN_data,Salmo salar; Invasive,GISD_listed_globally
+Sardina pilchardus,Portugal,No_EASIN_data,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Scomber scombrus,Portugal,No_EASIN_data,Scomber scombrus; Not in GISD,GISD_listed_globally
+Scophthalmus maximus,Portugal,No_EASIN_data,Scophthalmus maximus; Not in GISD,GISD_listed_globally
+Scorpaena porcus,Portugal,No_EASIN_data,Scorpaena porcus; Not in GISD,GISD_listed_globally
+Scrobicularia plana,Portugal,No_EASIN_data,Scrobicularia plana; Not in GISD,GISD_listed_globally
+Scruparia chelata,Portugal,No_EASIN_data,Scruparia chelata; Not in GISD,GISD_listed_globally
+Scyliorhinus canicula,Portugal,No_EASIN_data,Scyliorhinus canicula; Not in GISD,GISD_listed_globally
+Solea senegalensis,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Solea solea,Portugal,No_EASIN_data,Solea solea; Not in GISD,GISD_listed_globally
+Sparus aurata,Portugal,No_EASIN_data,Sparus aurata; Invasive,GISD_listed_globally
+Spondyliosoma cantharus,Portugal,No_EASIN_data,Spondyliosoma cantharus; Not in GISD,GISD_listed_globally
+Sylvia atricapilla,Portugal,No_EASIN_data,Sylvia atricapilla; Not in GISD,GISD_listed_globally
+Symphodus bailloni,Portugal,No_EASIN_data,Symphodus bailloni; Not in GISD,GISD_listed_globally
+Symphodus cinereus,Portugal,No_EASIN_data,Symphodus cinereus; Not in GISD,GISD_listed_globally
+Symphodus melops,Portugal,No_EASIN_data,Symphodus melops; Not in GISD,GISD_listed_globally
+Syngnathus acus,Portugal,No_EASIN_data,Syngnathus acus; Not in GISD,GISD_listed_globally
+Syngnathus rostellatus,Portugal,No_EASIN_data,Syngnathus rostellatus; Not in GISD,GISD_listed_globally
+Taurulus bubalis,Portugal,No_EASIN_data,Taurulus bubalis; Not in GISD,GISD_listed_globally
+Tripterygion delaisi,Portugal,No_EASIN_data,Tripterygion delaisi; Not in GISD,GISD_listed_globally
+Trisopterus luscus,Portugal,No_EASIN_data,Trisopterus luscus; Not in GISD,GISD_listed_globally
+Tritia incrassata,Portugal,No_EASIN_data,Tritia incrassata; Not in GISD,GISD_listed_globally
+Tritia reticulata,Portugal,No_EASIN_data,Tritia reticulata; Not in GISD,GISD_listed_globally
+Tubifex tubifex,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Watersipora subatra,Portugal,No_EASIN_data,Watersipora subatra; Not in GISD,GISD_listed_globally
+Xiphias gladius,Portugal,No_EASIN_data,Xiphias gladius; Not in GISD,GISD_listed_globally
+Zeugopterus punctatus,Portugal,No_EASIN_data,Invasive,GISD_listed_globally
+Carcinus maenas,Spain,EASIN_listed,Carcinus maenas; Invasive,Invasive_in_country
+Cyprinus carpio,Spain,EASIN_listed,Cyprinus carpio; Invasive,Invasive_in_country
+Ovis aries,Spain,EASIN_listed,Ovis aries; Invasive,Invasive_in_country
+Perca fluviatilis,Spain,EASIN_listed,Perca fluviatilis; Invasive,Invasive_in_country
+Rattus norvegicus,Spain,EASIN_listed,Rattus norvegicus; Invasive,Invasive_in_country
+Rattus rattus,Spain,EASIN_listed,Rattus rattus; Invasive,Invasive_in_country
+Abra alba,Spain,Not_listed,Abra alba; Not in GISD,GISD_listed_globally
+Acanthochitona fascicularis,Spain,Not_listed,Acanthochitona fascicularis; Not in GISD,GISD_listed_globally
+Amathia verticillata,Spain,Not_listed,Amathia verticillata; Not in GISD,GISD_listed_globally
+Amphibalanus amphitrite,Spain,Not_listed,Amphibalanus amphitrite; Not in GISD,GISD_listed_globally
+Aplysia vaccaria,Spain,Not_listed,Aplysia vaccaria; Not in GISD,GISD_listed_globally
+Asterias rubens,Spain,Not_listed,Asterias rubens; Not in GISD,GISD_listed_globally
+Astropecten bispinosus,Spain,Not_listed,Astropecten bispinosus; Not in GISD,GISD_listed_globally
+Astropecten spinulosus,Spain,Not_listed,Astropecten spinulosus; Not in GISD,GISD_listed_globally
+Atherina boyeri,Spain,Not_listed,Atherina boyeri; Not in GISD,GISD_listed_globally
+Atherina hepsetus,Spain,Not_listed,Atherina hepsetus; Not in GISD,GISD_listed_globally
+Balanus trigonus,Spain,Not_listed,Balanus trigonus; Not in GISD,GISD_listed_globally
+Belone belone,Spain,Not_listed,Belone belone; Not in GISD,GISD_listed_globally
+Boops boops,Spain,Not_listed,Boops boops; Not in GISD,GISD_listed_globally
+Bos taurus,Spain,Not_listed,Bos taurus; Invasive,GISD_listed_globally
+Canis lupus,Spain,Not_listed,Canis lupus; Invasive,GISD_listed_globally
+Capreolus capreolus,Spain,Not_listed,Capreolus capreolus; Not in GISD,GISD_listed_globally
+Capros aper,Spain,Not_listed,Capros aper; Not in GISD,GISD_listed_globally
+Caranx crysos,Spain,Not_listed,Caranx crysos; Not in GISD,GISD_listed_globally
+Ceratoscopelus maderensis,Spain,Not_listed,Ceratoscopelus maderensis; Not in GISD,GISD_listed_globally
+Chaetopterus variopedatus,Spain,Not_listed,Chaetopterus variopedatus; Not in GISD,GISD_listed_globally
+Chelon auratus,Spain,Not_listed,Chelon auratus; Not in GISD,GISD_listed_globally
+Chelon saliens,Spain,Not_listed,Chelon saliens; Not in GISD,GISD_listed_globally
+Clupea harengus,Spain,Not_listed,Clupea harengus; Not in GISD,GISD_listed_globally
+Columba livia,Spain,Not_listed,Columba livia; Invasive,GISD_listed_globally
+Columba palumbus,Spain,Not_listed,Columba palumbus; Not in GISD,GISD_listed_globally
+Columbella rustica,Spain,Not_listed,Columbella rustica; Not in GISD,GISD_listed_globally
+Conger conger,Spain,Not_listed,Conger conger; Not in GISD,GISD_listed_globally
+Coryphoblennius galerita,Spain,Not_listed,Coryphoblennius galerita; Not in GISD,GISD_listed_globally
+Ctenolabrus rupestris,Spain,Not_listed,Ctenolabrus rupestris; Not in GISD,GISD_listed_globally
+Dicentrarchus labrax,Spain,Not_listed,Dicentrarchus labrax; Not in GISD,GISD_listed_globally
+Diplodus puntazzo,Spain,Not_listed,Diplodus puntazzo; Not in GISD,GISD_listed_globally
+Diplodus vulgaris,Spain,Not_listed,Diplodus vulgaris; Not in GISD,GISD_listed_globally
+Echinocardium cordatum,Spain,Not_listed,Echinocardium cordatum; Not in GISD,GISD_listed_globally
+Elysia viridis,Spain,Not_listed,Elysia viridis; Not in GISD,GISD_listed_globally
+Engraulis encrasicolus,Spain,Not_listed,Engraulis encrasicolus; Not in GISD,GISD_listed_globally
+Epinephelus marginatus,Spain,Not_listed,Epinephelus marginatus; Not in GISD,GISD_listed_globally
+Eriphia verrucosa,Spain,Not_listed,Eriphia verrucosa; Not in GISD,GISD_listed_globally
+Felimida luteorosea,Spain,Not_listed,Felimida luteorosea; Not in GISD,GISD_listed_globally
+Felis catus,Spain,Not_listed,Felis catus; Invasive,GISD_listed_globally
+Gallus gallus,Spain,Not_listed,Gallus gallus; Invasive,GISD_listed_globally
+Gasterosteus aculeatus,Spain,Not_listed,Gasterosteus aculeatus; Not in GISD,GISD_listed_globally
+Gobius cobitis,Spain,Not_listed,Gobius cobitis; Not in GISD,GISD_listed_globally
+Gobius niger,Spain,Not_listed,Gobius niger; Not in GISD,GISD_listed_globally
+Gobius paganellus,Spain,Not_listed,Gobius paganellus; Not in GISD,GISD_listed_globally
+Gobiusculus flavescens,Spain,Not_listed,Gobiusculus flavescens; Not in GISD,GISD_listed_globally
+Gorilla gorilla,Spain,Not_listed,Gorilla gorilla; Not in GISD,GISD_listed_globally
+Holothuria forskali,Spain,Not_listed,Holothuria forskali; Not in GISD,GISD_listed_globally
+Holothuria poli,Spain,Not_listed,Holothuria poli; Not in GISD,GISD_listed_globally
+Homo sapiens,Spain,Not_listed,Homo sapiens; Not in GISD,GISD_listed_globally
+Lepadogaster candolii,Spain,Not_listed,Lepadogaster candolii; Not in GISD,GISD_listed_globally
+Lepidochitona cinerea,Spain,Not_listed,Lepidochitona cinerea; Not in GISD,GISD_listed_globally
+Lepidorhombus whiffiagonis,Spain,Not_listed,Lepidorhombus whiffiagonis; Not in GISD,GISD_listed_globally
+Lipophrys pholis,Spain,Not_listed,Lipophrys pholis; Not in GISD,GISD_listed_globally
+Liposcelis bostrychophila,Spain,Not_listed,Liposcelis bostrychophila; Not in GISD,GISD_listed_globally
+Lithophaga lithophaga,Spain,Not_listed,Lithophaga lithophaga; Not in GISD,GISD_listed_globally
+Littorina littorea,Spain,Not_listed,Littorina littorea; Invasive,GISD_listed_globally
+Luidia sarsii,Spain,Not_listed,Luidia sarsii; Not in GISD,GISD_listed_globally
+Maja crispata,Spain,Not_listed,Maja crispata; Not in GISD,GISD_listed_globally
+Marthasterias glacialis,Spain,Not_listed,Marthasterias glacialis; Not in GISD,GISD_listed_globally
+Melarhaphe neritoides,Spain,Not_listed,Melarhaphe neritoides; Not in GISD,GISD_listed_globally
+Meleagris gallopavo,Spain,Not_listed,Meleagris gallopavo; Not in GISD,GISD_listed_globally
+Membranipora membranacea,Spain,Not_listed,Membranipora membranacea; Not in GISD,GISD_listed_globally
+Merluccius merluccius,Spain,Not_listed,Merluccius merluccius; Not in GISD,GISD_listed_globally
+Micromesistius poutassou,Spain,Not_listed,Micromesistius poutassou; Not in GISD,GISD_listed_globally
+Mugil cephalus,Spain,Not_listed,Mugil cephalus; Not in GISD,GISD_listed_globally
+Mullus surmuletus,Spain,Not_listed,Mullus surmuletus; Not in GISD,GISD_listed_globally
+Muraena helena,Spain,Not_listed,Muraena helena; Not in GISD,GISD_listed_globally
+Myliobatis aquila,Spain,Not_listed,Myliobatis aquila; Not in GISD,GISD_listed_globally
+Naria spurca,Spain,Not_listed,Naria spurca; Not in GISD,GISD_listed_globally
+Octopus vulgaris,Spain,Not_listed,Octopus vulgaris; Not in GISD,GISD_listed_globally
+Oedalechilus labeo,Spain,Not_listed,Oedalechilus labeo; Not in GISD,GISD_listed_globally
+Owenia fusiformis,Spain,Not_listed,Owenia fusiformis; Not in GISD,GISD_listed_globally
+Pagellus acarne,Spain,Not_listed,Pagellus acarne; Not in GISD,GISD_listed_globally
+Pagellus bogaraveo,Spain,Not_listed,Pagellus bogaraveo; Not in GISD,GISD_listed_globally
+Pagellus erythrinus,Spain,Not_listed,Pagellus erythrinus; Not in GISD,GISD_listed_globally
+Parablennius gattorugine,Spain,Not_listed,Parablennius gattorugine; Not in GISD,GISD_listed_globally
+Paracentrotus lividus,Spain,Not_listed,Paracentrotus lividus; Not in GISD,GISD_listed_globally
+Patella caerulea,Spain,Not_listed,Patella caerulea; Not in GISD,GISD_listed_globally
+Patella ulyssiponensis,Spain,Not_listed,Patella ulyssiponensis; Not in GISD,GISD_listed_globally
+Pelagia noctiluca,Spain,Not_listed,Pelagia noctiluca; Not in GISD,GISD_listed_globally
+Phalacrocorax aristotelis,Spain,Not_listed,Phalacrocorax aristotelis; Not in GISD,GISD_listed_globally
+Phorcus turbinatus,Spain,Not_listed,Phorcus turbinatus; Not in GISD,GISD_listed_globally
+Physella acuta,Spain,Not_listed,Physella acuta; Not in GISD,GISD_listed_globally
+Platynereis dumerilii,Spain,Not_listed,Platynereis dumerilii; Not in GISD,GISD_listed_globally
+Pollicipes pollicipes,Spain,Not_listed,Pollicipes pollicipes; Not in GISD,GISD_listed_globally
+Pomatomus saltator,Spain,Not_listed,Pomatomus saltator; Not in GISD,GISD_listed_globally
+Pomatoschistus microps,Spain,Not_listed,Pomatoschistus microps; Not in GISD,GISD_listed_globally
+Pomatoschistus pictus,Spain,Not_listed,Pomatoschistus pictus; Not in GISD,GISD_listed_globally
+Prionace glauca,Spain,Not_listed,Prionace glauca; Not in GISD,GISD_listed_globally
+Prionospio dubia,Spain,Not_listed,Prionospio dubia; Not in GISD,GISD_listed_globally
+Raja brachyura,Spain,Not_listed,Raja brachyura; Not in GISD,GISD_listed_globally
+Salmo salar,Spain,Not_listed,Salmo salar; Invasive,GISD_listed_globally
+Sardina pilchardus,Spain,Not_listed,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Scomber scombrus,Spain,Not_listed,Scomber scombrus; Not in GISD,GISD_listed_globally
+Scophthalmus maximus,Spain,Not_listed,Scophthalmus maximus; Not in GISD,GISD_listed_globally
+Scorpaena porcus,Spain,Not_listed,Scorpaena porcus; Not in GISD,GISD_listed_globally
+Scrobicularia plana,Spain,Not_listed,Scrobicularia plana; Not in GISD,GISD_listed_globally
+Scruparia chelata,Spain,Not_listed,Scruparia chelata; Not in GISD,GISD_listed_globally
+Scyliorhinus canicula,Spain,Not_listed,Scyliorhinus canicula; Not in GISD,GISD_listed_globally
+Serranus cabrilla,Spain,Not_listed,Serranus cabrilla; Not in GISD,GISD_listed_globally
+Sipunculus nudus,Spain,Not_listed,Sipunculus nudus; Not in GISD,GISD_listed_globally
+Sparus aurata,Spain,Not_listed,Sparus aurata; Invasive,GISD_listed_globally
+Spondyliosoma cantharus,Spain,Not_listed,Spondyliosoma cantharus; Not in GISD,GISD_listed_globally
+Stramonita haemastoma,Spain,Not_listed,Stramonita haemastoma; Not in GISD,GISD_listed_globally
+Symphodus cinereus,Spain,Not_listed,Symphodus cinereus; Not in GISD,GISD_listed_globally
+Symphodus melops,Spain,Not_listed,Symphodus melops; Not in GISD,GISD_listed_globally
+Symphodus ocellatus,Spain,Not_listed,Symphodus ocellatus; Not in GISD,GISD_listed_globally
+Symphodus tinca,Spain,Not_listed,Symphodus tinca; Not in GISD,GISD_listed_globally
+Syngnathus typhle,Spain,Not_listed,Syngnathus typhle; Not in GISD,GISD_listed_globally
+Tarantinaea lignaria,Spain,Not_listed,Tarantinaea lignaria; Not in GISD,GISD_listed_globally
+Taurulus bubalis,Spain,Not_listed,Taurulus bubalis; Not in GISD,GISD_listed_globally
+Tolumonas auensis,Spain,Not_listed,Tolumonas auensis; Not in GISD,GISD_listed_globally
+Torpedo marmorata,Spain,Not_listed,Torpedo marmorata; Not in GISD,GISD_listed_globally
+Tripterygion delaisi,Spain,Not_listed,Tripterygion delaisi; Not in GISD,GISD_listed_globally
+Trisopterus minutus,Spain,Not_listed,Trisopterus minutus; Not in GISD,GISD_listed_globally
+Tritia reticulata,Spain,Not_listed,Tritia reticulata; Not in GISD,GISD_listed_globally
+Tritia unifasciata,Spain,Not_listed,Tritia unifasciata; Not in GISD,GISD_listed_globally
+Watersipora subatra,Spain,Not_listed,Watersipora subatra; Not in GISD,GISD_listed_globally
+Aethus nigritus,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Amathia verticillata,Ukraine,Country_not_mapped,Amathia verticillata; Not in GISD,GISD_listed_globally
+Aphia minuta,Ukraine,Country_not_mapped,Aphia minuta; Not in GISD,GISD_listed_globally
+Aplysia vaccaria,Ukraine,Country_not_mapped,Aplysia vaccaria; Not in GISD,GISD_listed_globally
+Arcuatula senhousia,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Atherina boyeri,Ukraine,Country_not_mapped,Atherina boyeri; Not in GISD,GISD_listed_globally
+Aurelia aurita,Ukraine,Country_not_mapped,Aurelia aurita; Not in GISD,GISD_listed_globally
+Belone belone,Ukraine,Country_not_mapped,Belone belone; Not in GISD,GISD_listed_globally
+Boops boops,Ukraine,Country_not_mapped,Boops boops; Not in GISD,GISD_listed_globally
+Bos taurus,Ukraine,Country_not_mapped,Bos taurus; Invasive,GISD_listed_globally
+Brachionus calyciflorus,Ukraine,Country_not_mapped,Brachionus calyciflorus; Not in GISD,GISD_listed_globally
+Cairina moschata,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Canis lupus,Ukraine,Country_not_mapped,Canis lupus; Invasive,GISD_listed_globally
+Capra hircus,Ukraine,Country_not_mapped,Capra hircus; Invasive,GISD_listed_globally
+Chaetopterus variopedatus,Ukraine,Country_not_mapped,Chaetopterus variopedatus; Not in GISD,GISD_listed_globally
+Chelon auratus,Ukraine,Country_not_mapped,Chelon auratus; Not in GISD,GISD_listed_globally
+Chelon saliens,Ukraine,Country_not_mapped,Chelon saliens; Not in GISD,GISD_listed_globally
+Chydorus sphaericus,Ukraine,Country_not_mapped,Chydorus sphaericus; Not in GISD,GISD_listed_globally
+Citrobacter pasteurii,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Clupea harengus,Ukraine,Country_not_mapped,Clupea harengus; Not in GISD,GISD_listed_globally
+Columba livia,Ukraine,Country_not_mapped,Columba livia; Invasive,GISD_listed_globally
+Donax trunculus,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Dreissena polymorpha,Ukraine,Country_not_mapped,Dreissena polymorpha; Invasive,GISD_listed_globally
+Engraulis encrasicolus,Ukraine,Country_not_mapped,Engraulis encrasicolus; Not in GISD,GISD_listed_globally
+Ensis leei,Ukraine,Country_not_mapped,Ensis leei; Not in GISD,GISD_listed_globally
+Gallus gallus,Ukraine,Country_not_mapped,Gallus gallus; Invasive,GISD_listed_globally
+Gasterosteus aculeatus,Ukraine,Country_not_mapped,Gasterosteus aculeatus; Not in GISD,GISD_listed_globally
+Gavia arctica,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Gobius niger,Ukraine,Country_not_mapped,Gobius niger; Not in GISD,GISD_listed_globally
+Hippocampus guttulatus,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Homo sapiens,Ukraine,Country_not_mapped,Homo sapiens; Not in GISD,GISD_listed_globally
+Knipowitschia caucasica,Ukraine,Country_not_mapped,Knipowitschia caucasica; Not in GISD,GISD_listed_globally
+Lelliottia amnigena,Ukraine,Country_not_mapped,Lelliottia amnigena; Not in GISD,GISD_listed_globally
+Lepidoglyphus destructor,Ukraine,Country_not_mapped,Lepidoglyphus destructor; Not in GISD,GISD_listed_globally
+Liposcelis decolor,Ukraine,Country_not_mapped,Liposcelis decolor; Not in GISD,GISD_listed_globally
+Loripes lacteus,Ukraine,Country_not_mapped,Loripes lacteus; Not in GISD,GISD_listed_globally
+Marthasterias glacialis,Ukraine,Country_not_mapped,Marthasterias glacialis; Not in GISD,GISD_listed_globally
+Meleagris gallopavo,Ukraine,Country_not_mapped,Meleagris gallopavo; Not in GISD,GISD_listed_globally
+Mugil cephalus,Ukraine,Country_not_mapped,Mugil cephalus; Not in GISD,GISD_listed_globally
+Myliobatis aquila,Ukraine,Country_not_mapped,Myliobatis aquila; Not in GISD,GISD_listed_globally
+Mytilopsis leucophaeata,Ukraine,Country_not_mapped,Mytilopsis leucophaeata; Invasive,GISD_listed_globally
+Nassarius nitidus,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Neogobius melanostomus,Ukraine,Country_not_mapped,Neogobius melanostomus; Invasive,GISD_listed_globally
+Ovis aries,Ukraine,Country_not_mapped,Ovis aries; Invasive,GISD_listed_globally
+Pachygrapsus marmoratus,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Perca fluviatilis,Ukraine,Country_not_mapped,Perca fluviatilis; Invasive,GISD_listed_globally
+Phocoena phocoena,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Platynereis dumerilii,Ukraine,Country_not_mapped,Platynereis dumerilii; Not in GISD,GISD_listed_globally
+Pomatomus saltator,Ukraine,Country_not_mapped,Pomatomus saltator; Not in GISD,GISD_listed_globally
+Pterois miles,Ukraine,Country_not_mapped,Pterois miles; Not in GISD,GISD_listed_globally
+Pungitius platygaster,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Rapana venosa,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Rattus norvegicus,Ukraine,Country_not_mapped,Rattus norvegicus; Invasive,GISD_listed_globally
+Sardina pilchardus,Ukraine,Country_not_mapped,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Scophthalmus maximus,Ukraine,Country_not_mapped,Scophthalmus maximus; Not in GISD,GISD_listed_globally
+Scorpaena porcus,Ukraine,Country_not_mapped,Scorpaena porcus; Not in GISD,GISD_listed_globally
+Shewanella algae,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Symphodus cinereus,Ukraine,Country_not_mapped,Symphodus cinereus; Not in GISD,GISD_listed_globally
+Symphodus ocellatus,Ukraine,Country_not_mapped,Symphodus ocellatus; Not in GISD,GISD_listed_globally
+Syngnathus typhle,Ukraine,Country_not_mapped,Syngnathus typhle; Not in GISD,GISD_listed_globally
+Tendra zostericola,Ukraine,Country_not_mapped,Invasive,GISD_listed_globally
+Tursiops truncatus,Ukraine,Country_not_mapped,Tursiops truncatus; Not in GISD,GISD_listed_globally
+Abra alba,United Kingdom,No_EASIN_data,Abra alba; Not in GISD,GISD_listed_globally
+Arenicola marina,United Kingdom,No_EASIN_data,Arenicola marina; Not in GISD,GISD_listed_globally
+Arion flagellus,United Kingdom,No_EASIN_data,Arion flagellus; Not in GISD,GISD_listed_globally
+Boccardiella hamata,United Kingdom,No_EASIN_data,Boccardiella hamata; Not in GISD,GISD_listed_globally
+Bos taurus,United Kingdom,No_EASIN_data,Bos taurus; Invasive,GISD_listed_globally
+Calliostoma zizyphinum,United Kingdom,No_EASIN_data,Calliostoma zizyphinum; Not in GISD,GISD_listed_globally
+Callopora lineata,United Kingdom,No_EASIN_data,Callopora lineata; Not in GISD,GISD_listed_globally
+Canis lupus,United Kingdom,No_EASIN_data,Canis lupus; Invasive,GISD_listed_globally
+Carcinus maenas,United Kingdom,No_EASIN_data,Carcinus maenas; Invasive,GISD_listed_globally
+Ciliata mustela,United Kingdom,No_EASIN_data,Ciliata mustela; Not in GISD,GISD_listed_globally
+Clupea harengus,United Kingdom,No_EASIN_data,Clupea harengus; Not in GISD,GISD_listed_globally
+Columba livia,United Kingdom,No_EASIN_data,Columba livia; Invasive,GISD_listed_globally
+Conger conger,United Kingdom,No_EASIN_data,Conger conger; Not in GISD,GISD_listed_globally
+Cradoscrupocellaria reptans,United Kingdom,No_EASIN_data,Cradoscrupocellaria reptans; Not in GISD,GISD_listed_globally
+Dicentrarchus labrax,United Kingdom,No_EASIN_data,Dicentrarchus labrax; Not in GISD,GISD_listed_globally
+Elysia viridis,United Kingdom,No_EASIN_data,Elysia viridis; Not in GISD,GISD_listed_globally
+Ensis leei,United Kingdom,No_EASIN_data,Ensis leei; Not in GISD,GISD_listed_globally
+Flustra foliacea,United Kingdom,No_EASIN_data,Flustra foliacea; Not in GISD,GISD_listed_globally
+Flustrellidra hispida,United Kingdom,No_EASIN_data,Flustrellidra hispida; Not in GISD,GISD_listed_globally
+Gallus gallus,United Kingdom,No_EASIN_data,Gallus gallus; Invasive,GISD_listed_globally
+Gobiusculus flavescens,United Kingdom,No_EASIN_data,Gobiusculus flavescens; Not in GISD,GISD_listed_globally
+Haematopus ostralegus,United Kingdom,No_EASIN_data,Haematopus ostralegus; Not in GISD,GISD_listed_globally
+Hemigrapsus penicillatus,United Kingdom,No_EASIN_data,Hemigrapsus penicillatus; Not in GISD,GISD_listed_globally
+Homo sapiens,United Kingdom,No_EASIN_data,Homo sapiens; Not in GISD,GISD_listed_globally
+Lipophrys pholis,United Kingdom,No_EASIN_data,Lipophrys pholis; Not in GISD,GISD_listed_globally
+Littorina obtusata,United Kingdom,No_EASIN_data,Littorina obtusata; Not in GISD,GISD_listed_globally
+Marthasterias glacialis,United Kingdom,No_EASIN_data,Marthasterias glacialis; Not in GISD,GISD_listed_globally
+Membranipora membranacea,United Kingdom,No_EASIN_data,Membranipora membranacea; Not in GISD,GISD_listed_globally
+Neogobius melanostomus,United Kingdom,No_EASIN_data,Neogobius melanostomus; Invasive,GISD_listed_globally
+Orchesella cincta,United Kingdom,No_EASIN_data,Orchesella cincta; Not in GISD,GISD_listed_globally
+Oshurkovia littoralis,United Kingdom,No_EASIN_data,Oshurkovia littoralis; Not in GISD,GISD_listed_globally
+Ovis aries,United Kingdom,No_EASIN_data,Ovis aries; Invasive,GISD_listed_globally
+Parablennius gattorugine,United Kingdom,No_EASIN_data,Parablennius gattorugine; Not in GISD,GISD_listed_globally
+Patella pellucida,United Kingdom,No_EASIN_data,Patella pellucida; Not in GISD,GISD_listed_globally
+Patella ulyssiponensis,United Kingdom,No_EASIN_data,Patella ulyssiponensis; Not in GISD,GISD_listed_globally
+Patella vulgata,United Kingdom,No_EASIN_data,Patella vulgata; Not in GISD,GISD_listed_globally
+Pholis gunnellus,United Kingdom,No_EASIN_data,Pholis gunnellus; Not in GISD,GISD_listed_globally
+Polyphemus pediculus,United Kingdom,No_EASIN_data,Polyphemus pediculus; Not in GISD,GISD_listed_globally
+Pomatoschistus minutus,United Kingdom,No_EASIN_data,Pomatoschistus minutus; Not in GISD,GISD_listed_globally
+Pomatoschistus pictus,United Kingdom,No_EASIN_data,Pomatoschistus pictus; Not in GISD,GISD_listed_globally
+Raniceps raninus,United Kingdom,No_EASIN_data,Raniceps raninus; Not in GISD,GISD_listed_globally
+Rutilus rutilus,United Kingdom,No_EASIN_data,Rutilus rutilus; Invasive,GISD_listed_globally
+Sardina pilchardus,United Kingdom,No_EASIN_data,Sardina pilchardus; Not in GISD,GISD_listed_globally
+Scomber scombrus,United Kingdom,No_EASIN_data,Scomber scombrus; Not in GISD,GISD_listed_globally
+Scruparia chelata,United Kingdom,No_EASIN_data,Scruparia chelata; Not in GISD,GISD_listed_globally
+Semibalanus balanoides,United Kingdom,No_EASIN_data,Semibalanus balanoides; Not in GISD,GISD_listed_globally
+Trisopterus luscus,United Kingdom,No_EASIN_data,Trisopterus luscus; Not in GISD,GISD_listed_globally
+Trisopterus minutus,United Kingdom,No_EASIN_data,Trisopterus minutus; Not in GISD,GISD_listed_globally
+Tritia incrassata,United Kingdom,No_EASIN_data,Tritia incrassata; Not in GISD,GISD_listed_globally

@@ -1,0 +1,23 @@
+Species,Phylum,Class,n_sites_detected,markers,min_distance_to_gbif,max_distance_to_gbif,any_novel
+Watersipora subtorquata,Bryozoa,Gymnolaemata,3,COI,627.5,1488.5,TRUE
+Neogobius melanostomus,Chordata,Actinopteri,12,12S,1.1,774.8,TRUE
+Watersipora subatra,Bryozoa,Gymnolaemata,11,12S,15.5,259.5,FALSE
+Pseudodiaptomus marinus,Arthropoda,Hexanauplia,2,18S,7.2,216.4,FALSE
+Hydroides elegans,Annelida,Polychaeta,8,18S,5.4,213.6,FALSE
+Bugula neritina,Bryozoa,Gymnolaemata,1,COI,184.6,184.6,FALSE
+Amathia verticillata,Bryozoa,Gymnolaemata,7,12S,0.3,154.1,FALSE
+Amphibalanus improvisus,Arthropoda,Thecostraca,9,COI,1.4,149.8,FALSE
+Austrominius modestus,Arthropoda,Thecostraca,8,COI,0.1,55.8,FALSE
+Schizoporella japonica,Bryozoa,Gymnolaemata,1,COI,33.8,33.8,FALSE
+Tricellaria inopinata,Bryozoa,Gymnolaemata,1,COI,33.2,33.2,FALSE
+Mnemiopsis leidyi,Ctenophora,Tentaculata,3,COI,0.7,16.7,FALSE
+Stypopodium schimperi,NA,Phaeophyceae,2,COI,13.3,15.3,FALSE
+Caprella mutica,Arthropoda,Malacostraca,2,12S,2,14.2,FALSE
+Knipowitschia caucasica,Chordata,Actinopteri,2,12S,2,4.1,FALSE
+Ficopomatus enigmaticus,Annelida,Polychaeta,2,18S,0.7,1.8,FALSE
+Mulinia lateralis,Mollusca,Bivalvia,1,COI,1.7,1.7,FALSE
+Pterois miles,Chordata,Actinopteri,2,12S,0.9,1.4,FALSE
+Microcosmus squamiger,Chordata,Ascidiacea,1,COI,1.3,1.3,FALSE
+Rhithropanopeus harrisii,Arthropoda,Malacostraca,4,12S,0.5,1.3,FALSE
+Lagocephalus sceleratus,Chordata,Actinopteri,1,12S,0.4,0.4,FALSE
+Fistularia commersonii,Chordata,Actinopteri,2,12S,0,0.1,FALSE

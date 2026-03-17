@@ -1,0 +1,19 @@
+Species,Phylum,Class,Site_Code,Latitude,Longitude,Markers,n_gbif_records,nearest_distance_km,nearest_year,nearest_country,same_country_records,assessment
+Watersipora subtorquata,Bryozoa,Gymnolaemata,Greece_7,35.342288,25.126918,COI,1000,1488.5,2021,Slovenia,0,POTENTIALLY NOVEL - nearest record >500km
+Watersipora subtorquata,Bryozoa,Gymnolaemata,Greece_8,35.341906,25.125946,COI,1000,1488.5,2021,Slovenia,0,POTENTIALLY NOVEL - nearest record >500km
+Neogobius melanostomus,Chordata,Actinopteri,UK_1,55.2055707,-6.6597624,12S,1000,774.8,2025,Belgium,0,POTENTIALLY NOVEL - nearest record >500km
+Neogobius melanostomus,Chordata,Actinopteri,Norway_4,69.6339517,18.9024303,12S,1000,765.8,2025,Finland,0,POTENTIALLY NOVEL - nearest record >500km
+Watersipora subtorquata,Bryozoa,Gymnolaemata,Italy_2,39.992002,9.694242,COI,1000,627.5,2025,France,0,POTENTIALLY NOVEL - nearest record >500km
+Watersipora subatra,Bryozoa,Gymnolaemata,Spain_7,41.374323,2.182994,12S,129,259.5,2022,France,0,Possible range expansion (200-500km)
+Watersipora subatra,Bryozoa,Gymnolaemata,Spain_2,41.396076,2.210727,12S,129,256.3,2022,France,0,Possible range expansion (200-500km)
+Watersipora subatra,Bryozoa,Gymnolaemata,Spain_5,41.410585,2.228813,12S,129,254.1,2022,France,0,Possible range expansion (200-500km)
+Pseudodiaptomus marinus,Arthropoda,Hexanauplia,Netherlands_3,52.102959,4.258417,18S,500,216.4,2022,United Kingdom of Great Britain and Northern Ireland,0,Possible range expansion (200-500km)
+Hydroides elegans,Annelida,Polychaeta,Italy_4,38.71573117,16.12483559,18S,46,213.6,2018,Italy,0,Possible range expansion (200-500km)
+Hydroides elegans,Annelida,Polychaeta,Greece_4,40.84350295,25.87771352,18S,46,192.2,1976,Greece,0,Range edge (100-200km)
+Bugula neritina,Bryozoa,Gymnolaemata,Greece_4,40.84350295,25.87771352,COI,2,184.6,2015,Greece,0,Range edge (100-200km)
+Hydroides elegans,Annelida,Polychaeta,Italy_1,42.17381554,14.71406582,18S,69,168.5,1964,Italy,0,Range edge (100-200km)
+Amathia verticillata,Bryozoa,Gymnolaemata,Italy_1,42.17381554,14.71406582,12S,36,154.1,1915,Italy,0,Range edge (100-200km)
+Watersipora subatra,Bryozoa,Gymnolaemata,Portugal_4,41.814701,-8.868088,12S,5,150.2,2023,Portugal,0,Range edge (100-200km)
+Amphibalanus improvisus,Arthropoda,Thecostraca,Netherlands_1,53.444,6.827,COI,500,149.8,2025,Germany,0,Range edge (100-200km)
+Hydroides elegans,Annelida,Polychaeta,Italy_2,39.992002,9.694242,18S,44,104,2010,Italy,0,Range edge (100-200km)
+Watersipora subatra,Bryozoa,Gymnolaemata,Portugal_3,41.369754,-8.764095,12S,5,100.6,2023,Portugal,0,Range edge (100-200km)

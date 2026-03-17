@@ -1,0 +1,102 @@
+Sampling.event.ID,Sampling.area.Name,n_OTUs,Species,Genus,Family,>Family,total_reads,species_reads_only,genus_reads_only,family_reads_only,>Family_reads_only
+Denmark_1,"Denmark, Copenhagen, Copenhagen, Floating jetty for harbor bus",85,22,12,7,44,286144,131681,6629,3294,144540
+Denmark_2,"Denmark, Copenhagen, Copenhagen, Nyhavn Harbor",66,19,4,5,38,104354,73613,2500,626,27615
+Finland_1,"Finland, Varsinais-Suomi, Turku",141,36,10,15,80,92587,67013,2223,6209,17142
+France_1,"France, Narbona, Port de la Nouvelle",137,44,17,15,61,772192,605088,37705,55172,74227
+Germany_1,NA,55,26,5,6,18,478797,255346,2787,33277,187387
+Greece_1,Rhodes_Aquarium_1stArea,111,33,14,13,51,357836,312747,13323,11083,20683
+Greece_2,Rhodes_Aquarium_2ndArea,128,38,21,12,57,524933,441969,33052,7482,42430
+Greece_3,"ÎšÎ±Î²Î¬Î»Î±, Î Î¿Ï…Î»Î¯Î´Î¿Ï… 26",94,34,12,9,39,465282,396489,4707,8402,55684
+Greece_4,"Î‘Î»ÎµÎ¾Î±Î½Î´ÏÎ¿ÏÏ€Î¿Î»Î·, Î’Î±Ïƒ. Î‘Î»ÎµÎ¾Î¬Î½Î´ÏÎ¿Ï… 20",52,11,5,5,31,791798,172156,427687,23690,168265
+Greece_5,"Greece, Chania, Eastern edge of Koum Kapi water front; east of the port of Chania",95,29,10,10,46,1364633,1235174,16029,80881,32549
+Greece_6,"Greece, Chania, Small port of Nea Chora; at the west of the city of Chania",141,23,19,17,82,1214427,689701,153308,72978,298440
+Greece_7,"Greece, Heraklion, Dermatas bay",83,31,7,8,37,512383,390117,35057,57801,29408
+Greece_8,"Greece, Heraklion, Dermatas bay1",58,24,7,4,23,1137701,1057069,29900,24323,26409
+Italy_1,"Abruzzo, Province of Chieti, Vasto, Viale Marinai d'Italia",72,28,4,9,31,703947,556108,39773,92714,15352
+Italy_2,"Italy, Nuoro, Baunei",93,33,5,6,49,901173,671687,13765,133043,82678
+Italy_3,"Italy, Nuoro, Dorgali",96,27,8,8,53,249186,111898,11681,56200,69407
+Italy_4,"Calabria, Province of Vibo Valentia, Vibo Valentia, Vibo Marina",84,36,11,13,24,480366,245974,22774,25717,185901
+NA_1,Caleton 1,25,9,3,4,9,309593,74884,44476,5260,184973
+NA_10,"Porto, LeÃ§a da Palmeira, Av. Q.ta Santiago 5",76,33,6,2,35,2239681,136819,96101,2028,2004733
+NA_11,"Porto, LeÃ§a da Palmeira, Cais 6",102,42,11,6,43,5104901,528922,550747,116374,3908858
+NA_12,"Porto, LeÃ§a da Palmeira, Via Interna de LigaÃ§Ã£o ao Porto de LeixÃµes",169,70,17,13,69,3486311,1550869,239014,20234,1676194
+NA_13,"Porto, Matosinhos, Av. Eng. Duarte Pacheco 2",118,45,16,9,48,3260846,550170,564780,3668,2142228
+NA_14,"Porto, Matosinhos, Ponte mÃ³vel de LeÃ§a",186,66,20,14,86,1608197,363682,449402,52257,742856
+NA_15,"Porto, Matosinhos, Porto de LeixÃµes",101,39,9,4,49,5105103,3465489,268618,8307,1362689
+NA_16,"Porto, Matosinhos, R. Cartelas Vieira 24",101,37,7,5,52,181070,130031,35816,1217,14006
+NA_17,"TrÃ¸ndelag, Trondheim, BrattÃ¸rkaia 11",263,78,29,20,136,2716888,1546491,201919,160041,808437
+NA_18,"TrÃ¸ndelag, Trondheim, Bynesveien 46",235,60,14,14,147,2447967,1047359,15171,63223,1322214
+NA_19,"TrÃ¸ndelag, Trondheim, Pir 1 nr. 7 (HR-kaien)",213,58,15,15,125,3751046,666297,25634,172252,2886863
+NA_2,Caleton 2,11,5,1,1,4,413852,33147,15010,84,365611
+NA_20,"TrÃ¸ndelag, Trondheim, Pir Ii 15a",198,57,16,10,115,2969662,1239268,63478,34554,1632362
+NA_21,"TrÃ¸ndelag, Trondheim, Strandveien 104",256,79,28,20,129,2999769,1357810,123449,52158,1466352
+NA_22,Ukraine,114,29,10,11,64,2735863,664387,562721,482050,1026705
+NA_23,Ukraine,138,34,17,11,76,513131,194408,49915,21404,247404
+NA_24,Vidrada,64,19,6,7,32,306871,91064,36065,19929,159813
+NA_25,"Zuid Holland, Rotterdam Rozenburg, Nieuwe weg 1",60,15,4,3,38,45608,31522,542,6387,7157
+NA_26,"Zuid-Holland, Leiden, Leiden, Coornhertstraat 63",49,11,5,9,24,124223,41024,8225,7378,67596
+NA_27,"Zuid-Holland, Nissewaard, Spijkenisse, Hongerlandsedijk 1",229,73,17,20,119,1873999,963740,47522,47003,815734
+NA_28,"Zuid-Holland, Rotterdam, Maasvlakte Rotterdam, Botlek, Loswalweg 1",225,66,20,14,125,805874,365318,11356,36465,392735
+NA_29,"Zuid-Holland, Rotterdam, Rotterdam, Charlois, Droogdokweg 71",206,57,10,18,121,1170618,392582,180986,28986,568064
+NA_3,Caleton 3,15,5,3,2,5,110294,3194,3351,236,103513
+NA_30,"Zuid-Holland, Rotterdam, Rozenburg, Nieuwe Weg 1",291,74,19,17,181,922904,294699,18021,90416,519768
+NA_31,nudist beach,30,6,4,3,17,9812,1112,78,21,8601
+NA_32,yellow stone aug 24 1,47,17,5,5,20,171900,66462,14247,4462,86729
+NA_33,yellow_stone_1_aug,29,9,3,3,14,12057,2538,222,157,9140
+NA_34,yellow_stone_2_aug,30,7,2,4,17,49084,4513,512,764,43295
+NA_35,yellow_stone_3_aug,44,13,2,5,24,129926,26199,6626,2974,94127
+NA_36,"ÎšÎ±Î»Î±Î¼Î±ÏÎ¹Î¬, ÎÎ¹Îº. Î Î»Î±ÏƒÏ„Î®ÏÎ± 25",70,23,6,4,37,436494,61328,10539,7905,356722
+NA_37,"ÎšÎ±Î»Î±Î¼Î±ÏÎ¹Î¬, ÎÎ¹Îº. Î Î»Î±ÏƒÏ„Î®ÏÎ± 25",150,38,17,13,82,921814,145455,67272,61582,647505
+NA_38,"ÎšÎ±Î»Î±Î¼Î±ÏÎ¹Î¬, ÎÎ¹Îº. Î Î»Î±ÏƒÏ„Î®ÏÎ± 31",139,27,13,10,89,649041,74350,18965,77950,477776
+NA_39,"Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·, 26Î·Ï‚ ÎŸÎºÏ„Ï‰Î²ÏÎ¯Î¿Ï… 15",72,14,7,5,46,1333446,19483,15204,15620,1283139
+NA_4,"Europoort Rotterdam, Botlek, Rijndwarsweg 9",246,60,19,16,151,1135961,427096,26032,19609,663224
+NA_40,"Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·, ÎÎ±Ï…Î¬ÏÏ‡Î¿Ï… Î’ÏŒÏ„ÏƒÎ· 4",206,43,20,13,130,3181367,576838,264955,143204,2196370
+NA_41,"Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·, Î ÏÎ»Î· 11",39,6,3,4,26,30645,475,2064,474,27632
+NA_42,"Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·, ÎŸÎ´ÏŒÏ‚ Ï‡Ï‰ÏÎ¯Ï‚ Î¿Î½Î¿Î¼Î±ÏƒÎ¯Î±",35,6,4,4,21,14215,6875,472,302,6566
+NA_43,"Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·, Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·",40,13,5,4,18,172860,33989,33608,4901,100362
+NA_44,"Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·, Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ· 546 27",66,24,7,8,27,259062,16588,33892,11790,196792
+NA_45,"Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·, Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ· 546 27",82,19,11,9,43,277816,94826,46261,5196,131533
+NA_46,"Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·, Î‘Ï€Î¿Î¸Î®ÎºÎ· 1",98,17,11,7,63,121507,23315,1238,6899,90055
+NA_47,"Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·, Î•Î½Ï„Î¿Ï‚ Î›Î¹Î¼Î­Î½Î±",136,23,10,9,94,1138947,48486,89506,53925,947030
+NA_48,"Î˜ÎµÏƒÏƒÎ±Î»Î¿Î½Î¯ÎºÎ·, Î•Ï€Î¹Î²Î±Ï„Î¹ÎºÏŒÏ‚ Î¤ÎµÏÎ¼Î±Ï„Î¹ÎºÏŒÏ‚ Î£Ï„Î±Î¸Î¼ÏŒÏ‚ ""ÎœÎ±ÎºÎµÎ´Î¿Î½Î¯Î±""",197,35,19,12,131,1538891,322846,119433,163526,933086
+NA_49,Î•Î»Î»Î¬Î´Î±,35,9,5,7,14,139490,29468,48756,7667,53599
+NA_5,Kaleton,36,8,3,8,17,325803,42478,20619,46463,216243
+NA_50,"Î›Î¹Î¼Î¬Î½Î¹, 26Î·Ï‚ ÎŸÎºÏ„Ï‰Î²ÏÎ¯Î¿Ï… 31",79,23,8,9,39,1285435,127937,268442,41211,847845
+NA_51,Ð¢Ñ€Ð°ÑÑÐ° Ð·Ð´Ð¾Ñ€Ð¾Ð²ÑŒÑ,12,3,1,2,6,357721,1395,51428,6085,298813
+NA_52,ÐŸÐ»ÑÐ¶ ÐžÑ‚Ñ€Ð°Ð´Ð°,86,24,14,10,38,755884,149287,36632,29412,540553
+NA_53,"ÐŸÐ»ÑÐ¶ Ð”ÐµÐ»ÑŒÑ„Ð¸Ð½, 4",261,54,22,20,165,2998305,926512,180487,437971,1453335
+NA_54,NA,41,12,3,3,23,503260,15759,675,22381,464445
+NA_55,NA,65,19,2,4,40,188345,123408,1846,26515,36576
+NA_6,"Odesa Oblast, Odesa District, Chornomors'ka",23,4,2,1,16,86609,24881,10085,21,51622
+NA_7,"Odesa Oblast, Odesa District, Chornomors'ka, Ðœ-27",60,20,9,6,25,613389,112917,82255,72179,346038
+NA_8,"Odesa Oblast, Odesa District, Odesa",57,17,5,6,29,1939591,66654,469612,357980,1045345
+NA_9,"Odesa Oblast, Odesa District, Odesa, Ð¢Ñ€Ð°ÑÑÐ° Ð·Ð´Ð¾Ñ€Ð¾Ð²ÑŒÑ",26,8,1,6,11,301037,27264,95997,114599,63177
+Netherlands_1,"Netherlands, Het Hogeland municipality, Eemshaven",75,18,3,8,46,146830,32140,212,2431,112047
+Netherlands_2,"Netherlands, South-Holland, Scheveningen Haven",39,23,4,6,6,1537666,1460545,10804,59620,6697
+Netherlands_3,"Netherlands, The Hague",55,28,4,4,19,595344,503152,48968,27372,15852
+Netherlands_4,"Zuid-Holland, Rotterdam, Rotterdam, Europoort",94,22,6,6,60,95901,57842,4112,1272,32675
+Netherlands_5,"Zuid-Holland, Rotterdam, Rotterdam, Heijplaat, Droogdokweg 71",115,40,10,11,54,141290,84427,2313,5548,49002
+Netherlands_6,"Zuid-Holland, Rotterdam, Rotterdam, Maasvlakte, Ohiokade",36,17,0,4,15,194609,181422,0,8058,5129
+Netherlands_7,"Zuid-Holland, Rotterdam, Rozenburg, Nieuwe Weg",74,32,8,13,21,552171,424846,8952,40463,77910
+Norway_1,"Norway, Lindesnes",68,28,7,6,27,630925,230229,11570,1974,387152
+Norway_2,"Storenes, Kristiansand kommune, Kristiansand",124,42,11,5,66,176064,64506,7317,648,103593
+Norway_3,"Norway, Oslo",43,28,1,1,13,592461,284225,251,358,307627
+Norway_4,"Norway, TromsÃ¸ island, TromsÃ¸ NOR Teleg.",74,28,3,6,37,410787,362350,840,14208,33389
+Norway_5,"Norway, TromsÃ¸ island, TromsÃ¸ NOR Teleg.",43,20,0,3,20,497447,446976,0,29430,21041
+Poland_1,"Poland, Gdynia, Gdynia harbour inside wall (pilot wharf); cargo ships; close to recreational marina",57,18,5,6,28,298526,233454,30404,6224,28444
+Portugal_1,"Portugal, Setubal, Sines",81,32,8,8,33,256881,138167,62635,37641,18438
+Portugal_2,"Portugal, Setubal, Sines",89,34,9,7,39,306475,102439,105505,35120,63411
+Portugal_3,Póvoa De Varzim,123,57,11,7,48,1206269,504615,372075,43980,285599
+Portugal_4,Vila Praia de Ancora,88,42,14,9,23,763902,354685,73302,4724,331191
+Spain_1,"Spain, Asturias, Gijon",90,35,10,8,37,416110,175010,93282,7540,140278
+Spain_10,"Spain, Mallorca, Sa Rapita",169,38,14,13,104,1063754,821247,31539,43875,167093
+Spain_2,"Spain, Barcelona, Barceloneta",149,51,13,13,72,1114217,931240,7639,74821,100517
+Spain_3,"Spain, Coruna, Coruna",87,33,9,3,42,284555,119923,58700,4255,101677
+Spain_4,"Spain, Lugo, Burela",90,44,13,7,26,232510,209845,17787,3241,1637
+Spain_5,"Spain, Barcelona, Port FÃ²rum; north of Barcelona",103,30,14,14,45,356001,118670,80537,29996,126798
+Spain_6,"Spain, Barcelona, Port OlÃ­mpic; Barcelona",56,27,5,4,20,614230,563153,4244,3346,43487
+Spain_7,"Spain, Barcelona, Port Vell; Barcelona",84,17,7,9,51,123513,30285,3526,3187,86515
+Spain_8,"Spain, Mallorca, Alcudia port",121,38,12,12,59,469104,83788,141481,28338,215497
+Spain_9,"Spain, Mallorca, Potixol- Palma",64,23,5,7,29,819877,628854,39590,28856,122577
+UK_1,"United Kingdom, North Coast, Portrush",107,29,15,6,57,107706,48827,20380,4539,33960
+UK_2,"United Kingdom, North Coast, Portrush1",120,36,11,8,65,294507,213180,5691,11474,64162

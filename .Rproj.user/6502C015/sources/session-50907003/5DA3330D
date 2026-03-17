@@ -1,0 +1,26 @@
+{
+    "id": "5DA3330D",
+    "path": "~/Documents/GitHub/BGE_CitizenScience_MNIS/Scripts/02b_GBIF_MIS_novel_check.R",
+    "project_path": "Scripts/02b_GBIF_MIS_novel_check.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1773744176143.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "509,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1773675641,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1773675641,
+    "read_only": false,
+    "read_only_alternatives": []
+}
