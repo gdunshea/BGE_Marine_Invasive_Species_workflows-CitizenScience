@@ -1,0 +1,205 @@
+# BGE Coastal Marine Invasive Species — Citizen Science eDNA Pipeline
+
+This repository contains the analysis pipeline for the **BGE Coastal Marine Invasive Species Citizen Science Project (BGE-MNIS)**, developed at the NTNU University Museum, Department of Natural History (Glenn Dunshea).
+
+At least 25 teams of citizen scientists undertook 46 sampling events across 12 European countries, each collecting triplicate 1-litre surface water filtrations from coastal harbour/port sites. DNA was extracted centrally and characterised by PCR amplification with three eDNA metabarcoding markers: **12S** (vertebrates), **18S** (eukaryotes), and **COI** (metazoans). The pipeline takes the resulting `phyloseq` objects from NCBI taxonomy and produces verified lists of marine invasive species detections, detection reliability scores, GBIF novelty assessments, and "Wheel of Life" community visualisations per sampling event.
+
+Full pipeline documentation and rendered outputs are available at:
+**https://gdunshea.github.io/BGE_Marine_Invasive_Species_workflows-CitizenScience/**
+
+---
+
+## Repository structure
+
+```
+Scripts/
+├── 000_BIGPROBLEMS_NCBIvSYNTAX.R
+├── 00_Invasive_Status_GSID-NCBI.R
+├── 01_Database_query_WORMS.R
+├── 02_CS_detection_analysis.R
+├── 02b_GBIF_MIS_novel_check.R
+├── 02b_CS_detection_reliability.R
+├── 03_CS_read_proportion_validation.R
+└── Functions/
+    ├── FUNC_process_metadata.R
+    ├── FUNC_process_invasives.R
+    ├── FUNC_query_invasive_status_databases.R
+    ├── FUNC_occupancy_power_analysis.R
+    ├── FUNC_detection_reliability.R
+    ├── FUNC_assign_lifestyle.R
+    ├── FUNC_combine_lifestyle.R
+    ├── FUNC_worms_lifestyle.R
+    ├── FUNC_plot_site_facet_theta.R
+    ├── wheel_of_life_R.R
+    └── mm_wheel_of_life.py
+```
+
+---
+
+## Analysis scripts
+
+Scripts are numbered to reflect execution order. Run them sequentially within an R session so that objects created in earlier steps are available downstream.
+
+### `000_BIGPROBLEMS_NCBIvSYNTAX.R`
+Diagnostic comparison of NCBI versus Syntax taxonomy for the 12S marker. Loads both phyloseq objects, subsets to the citizen science and "other port" projects, and quantifies mammal/bird contamination in each (cetaceans and pinnipeds are retained as genuine detections). Produces a summary table and a dot/boxplot of per-sample contamination percentages saved to `Figures/mambird_contamination_by_project.png`. Also extracts and prints FASTA sequences for any marine mammal OTUs so they can be verified by BLAST. Run this before committing to one taxonomy database.
+
+### `00_Invasive_Status_GSID-NCBI.R`
+Entry point for the main pipeline. Sources `FUNC_process_metadata.R` and `FUNC_process_invasives.R`, loads the three NCBI phyloseq RDS files, and runs Steps 1–4 for each marker: metadata cleaning, OTU summarisation, species-by-country extraction, and GISD/EASIN invasive-status queries. Outputs cleaned phyloseq objects and invasive-status tables to `Processed_data/`.
+
+### `01_Database_query_WORMS.R`
+Sources `FUNC_query_invasive_status_databases.R` and passes the per-marker invasive-status tables from `00_` through `process_species_list()`, which queries WoRMS/WRiMS, GBIF, and optionally OBIS to verify each species-country combination against authoritative marine biodiversity databases. Results are saved as CSVs and the full workspace is checkpointed to `Processed_data/post_01.Database_query_WORMS_NCBI.RData` (which can be reloaded to skip the ~30–60 min API calls on re-runs).
+
+### `02_CS_detection_analysis.R`
+The core detection analysis script. Runs the following steps in sequence:
+
+1. **Subset** phyloseq objects to citizen science samples only.
+2. **Remove mammal/bird OTUs** — Mammalia and Aves are dropped except for cetaceans and pinnipeds, which are retained.
+3. **Remove non-marine taxa** — queries WoRMS for marine/freshwater/terrestrial flags for all species and prunes non-marine OTUs (with a manual override for *Corbicula fluminea*).
+4. **Collapse multi-OTU species** — where a species is represented by multiple OTUs, these are merged into a single presence/absence record per biosample for detection analyses while the original OTU counts are preserved for diversity metrics.
+5. **Occupancy and detection modelling** — calls `FUNC_occupancy_power_analysis.R` to compute θ (biosample-level detection) and p (PCR-level detection) per OTU × site, run bootstrap power analyses across alternative sampling designs, and merge verified invasive-status flags.
+6. **Lifestyle annotation** — assigns ecological lifestyle categories (Fish, Sessile invertebrate, Mobile invertebrate, Phytoplankton, Zooplankton, Macroalgae, Microeukaryote) using `FUNC_assign_lifestyle.R`, then cross-validates against WoRMS functional group data via `FUNC_combine_lifestyle.R`, with manual corrections for ctenophores, heterotrophic dinoflagellates, and other misclassified groups.
+7. **Summary tables** — builds `mis_summary` (invasive species taxonomy table), `marker_table` (Table 1 statistics), and `pcr_all` (long-format PCR × OTU records for downstream scripts).
+8. **Wheel of Life plots** — calls `wheel_of_life_R.R` / `mm_wheel_of_life.py` to generate per-site biodiversity wheel visualisations and saves them to `Figures/wheels/`.
+
+Saves collapsed phyloseq objects (`ps_cs_12S/18S/COI.rds`) to `Processed_data/` for use by downstream scripts.
+
+### `02b_GBIF_MIS_novel_check.R`
+Cross-references every invasive species detection against GBIF occurrence records to assess novelty. For each species × site combination, queries GBIF within a 5° bounding box and calculates the distance to the nearest georeferenced record. Detections are classified as *Well documented*, *Known nearby (<100 km)*, *Range edge (100–200 km)*, *Possible range expansion (200–500 km)*, or *POTENTIALLY NOVEL (>500 km)*. Also calculates per-site read proportion statistics (mean, min, max reads per PCR; proportion of total reads). Saves a full validation table and a filtered "notable detections" paper table (≥100 km from nearest GBIF record) to `Processed_data/`.
+
+### `02b_CS_detection_reliability.R`
+Run after `02_CS_detection_analysis.R`. Sources `FUNC_detection_reliability.R` and executes four complementary reliability analyses with configurable parameters (n_boot = 5000, n_perm = 4999):
+
+1. **Detection strength classification** — tiers each OTU × site detection from Minimal (1 biosample, 1 PCR) to Strong (all biosamples, most PCRs positive).
+2. **Filtering trade-off analysis** — quantifies what fraction of detections and invasive species are retained or lost under progressively stricter confirmation thresholds (≥2 PCRs, ≥2 biosamples, etc.).
+3. **Power by detection strength** — breaks the bootstrap power analysis down by strength tier to show which detection categories benefit most from increased sampling effort.
+4. **Invasive reliability assessment** — per-detection forest plot of P(detect | present) with 95% credible intervals, with an optional comparison against a 5×3 (five biosamples, three PCRs) design.
+5. **Lifestyle-stratified power analysis** — bootstrap power curves broken down by ecological lifestyle category, with permutation tests for lifestyle-level differences.
+
+Outputs figures to `Figures/` and summary tables to `Processed_data/`.
+
+### `03_CS_read_proportion_validation.R`
+Run after `02b_CS_detection_reliability.R`. Adds a read proportion axis to complement the occupancy-based detection framework. For every invasive detection, read proportion is computed across *all* PCRs at a site (including zeros), giving a measure of signal strength independent of detection consistency. Detections are classified into a 2×2 matrix: Confident (high P(detect), high read proportion), Concerning (high P(detect), low proportion), Patchy but Real (low P(detect), high proportion), and Uncertain (low in both). ROC analysis against GBIF-validated records evaluates the discriminatory power of read proportion as a supplementary reliability criterion. Saves unified classification tables and figures to `Processed_data/` and `Figures/`.
+
+---
+
+## Custom functions
+
+All custom functions live in `Scripts/Functions/`. They are sourced explicitly by the numbered scripts above.
+
+### `FUNC_process_metadata.R`
+Metadata loading, cleaning, and OTU summarisation for phyloseq objects (Steps 1–2 of the pipeline).
+
+| Function | Description |
+|---|---|
+| `load_phyloseq(marker, rds_file)` | Loads the marker-specific RDS file and subsets to the BGE-MNIS project. |
+| `add_ntnu_metadata(ps)` | Joins NTNU field metadata from `BGE_MNIS_CScodes.csv` by sample code. |
+| `fix_citsci_metadata(ps, fixed_metadata)` | Applies eight targeted metadata corrections: whitespace/coordinate cleanup, disambiguation of duplicate sampling sites (Copenhagen, Portrush, Heraklion, Calabria), filling missing Portuguese site names, generation of unique `Sampling.event.ID` codes, and replacement with a curated spreadsheet. |
+| `summarize_otus_by_event(ps)` | Aggregates OTU presence/absence and read counts per sampling event, broken down by taxonomic resolution (Species / Genus / Family / >Family). |
+| `process_metadata(marker, ps_input, ...)` | Pipeline wrapper: runs Steps 1–2 for a single marker and returns a named list with the cleaned phyloseq object and OTU summary table. |
+| `process_all_metadata(markers, ps_list, ...)` | Runs `process_metadata()` for all three markers in sequence. |
+
+---
+
+### `FUNC_process_invasives.R`
+Species extraction and invasive-status flagging against GISD and EASIN (Steps 3–4 of the pipeline).
+
+| Function | Description |
+|---|---|
+| `extract_species_by_country(ps, country_col)` | Returns a data frame of unique species × country combinations present in the phyloseq object, using a user-specified sample metadata column for country. |
+| `gisd_query_single(species)` | Queries the IUCN Global Invasive Species Database (GISD) for one species and returns its status string. |
+| `query_gisd_batch(species_list)` | Batch GISD queries with RDS caching; only queries species not already cached. |
+| `fetch_easin_list(country_code)` | Fetches the EASIN list of concern/established alien species for one ISO country code from the JRC API. |
+| `query_easin_all(countries)` | Batch EASIN queries for all countries in the dataset, with RDS caching. |
+| `check_easin_status(species, location, easin_lists)` | Checks whether a species is listed in the EASIN data for a given country. |
+| `process_invasives(marker, ps, country_col, ...)` | Pipeline wrapper for Steps 3–4: extracts species by country, queries GISD and EASIN, and returns a flagged data frame classifying each species-country pair as *Invasive_in_country*, *GISD_listed_globally*, or *Not_flagged*. |
+| `process_all_invasives(markers, meta_list, country_col)` | Runs `process_invasives()` for all three markers. |
+| `parse_claude_assessment(md_file, marker)` | Parses a manually edited markdown assessment table (country-level sections with pipe-delimited rows) back into an R data frame. |
+
+---
+
+### `FUNC_query_invasive_status_databases.R`
+Comprehensive multi-database invasive-status verification querying WoRMS/WRiMS, GBIF, and optionally OBIS. Intended to be run locally (requires internet access). Expected runtime ~30–60 minutes per marker owing to API rate limits.
+
+| Function | Description |
+|---|---|
+| `get_country_code(country_name)` | Resolves a country name to its ISO-2 code, falling back to dynamic lookup for names not in the built-in table. |
+| `query_worms_invasive(species, country_code)` | Retrieves WoRMS/WRiMS AphiaID, distribution records, and introduced/invasive origin flags for one species in one country. |
+| `query_gbif_establishment(species, country_code)` | Returns the GBIF establishment means (Native, Introduced, Invasive, etc.) for a species in a country. |
+| `query_obis_occurrence(species, country_code)` | Optional OBIS query for additional marine occurrence data. |
+| `process_species_list(invasive_status_df, output_file)` | Master wrapper: iterates over all species-country combinations from the invasive-status data frame, queries all configured databases, and returns a verified, consolidated invasive-status table saved as a CSV. |
+
+---
+
+### `FUNC_occupancy_power_analysis.R`
+Site-level eDNA detection reliability framework based on a 3 biological samples × 3 PCR replicates design. All parameters are estimated per OTU × site without cross-site pooling.
+
+| Function | Description |
+|---|---|
+| `compute_site_detections(ps, marker, verified_df)` | Computes θ (biosample detection rate), p (PCR detection rate), and derived occupancy statistics per OTU × site from a phyloseq object. Merges verified invasive-status flags. |
+| `bootstrap_power_analysis(det_df, designs, n_boot)` | Beta-posterior bootstrap estimating P(detect | present) with 95% credible intervals for a set of alternative sampling designs (e.g. 3×3, 5×3, 3×5). Propagates uncertainty from small sample sizes. |
+| `combine_markers(det_12S, det_18S, det_COI, verified_dfs)` | Merges per-marker detection results into a single `site_level` data frame and calculates multi-marker co-detection statistics. |
+| `summarise_by_country(site_level)` | Aggregates detections and invasive species counts by country. |
+| `plot_power_curves(power_df, ...)` | Plots bootstrap power curves (P(detect) vs sampling effort) faceted by marker. |
+| `plot_detection_map(site_level, coords_df, ...)` | Generates a map of detection probabilities or invasive species counts per sampling site. |
+
+---
+
+### `FUNC_detection_reliability.R`
+Four standalone analysis functions for characterising detection reliability from the hierarchical sampling design. Each produces summary tables, saved outputs, and a figure.
+
+| Function | Description |
+|---|---|
+| `analyse_detection_strength(site_level, tier_defs, ...)` | Classifies every OTU × site detection into strength tiers (Strong, Good, Moderate, Weak, Minimal) based on the number of biosamples and PCR replicates that confirmed it. Tier definitions are fully customisable via the `tier_defs` argument. Returns classified data, marker-level summary, and a grouped bar chart. |
+| `analyse_filtering_tradeoffs(classified, threshold_defs, ...)` | Applies one or more confirmation thresholds (e.g. ≥2 PCRs, ≥2 biosamples) and reports what fraction of all detections and invasive detections are retained or lost at each threshold, including which invasive species would be missed. |
+| `analyse_power_by_strength(empirical_3x3, det_list, ...)` | Breaks the bootstrap power analysis down by detection strength tier across multiple sampling designs to show where increased effort yields the greatest benefit. |
+| `analyse_invasive_reliability(empirical_3x3, det_list, combined_all, ...)` | Per-detection reliability assessment for invasive species. Classifies each detection as Reliable / Likely reliable / Uncertain / Unreliable based on P(detect) posterior estimates. Optionally compares a baseline design against an alternative (e.g. 5×3 vs 3×3) using a paired forest plot. |
+
+---
+
+### `FUNC_assign_lifestyle.R`
+Assigns ecological lifestyle categories to detections using a hierarchical taxonomy lookup (Order → Class → Phylum). Categories: Fish, Sessile invertebrate, Mobile invertebrate, Phytoplankton, Zooplankton, Macroalgae, Microeukaryote, Other.
+
+| Function | Description |
+|---|---|
+| `default_lifestyle_lookup()` | Returns the built-in lookup table (tibble with columns `level`, `taxon`, `lifestyle`). Can be extended by binding additional rows before passing to `assign_lifestyle()`. |
+| `assign_lifestyle(site_level, lookup)` | Adds a `lifestyle` column to a site-level detections data frame using the lookup table. Order-level matches take priority over Class, which takes priority over Phylum. |
+| `check_unmatched_lifestyle(site_level)` | Prints all taxa assigned "Other", facilitating manual review and lookup table extension. |
+
+---
+
+### `FUNC_combine_lifestyle.R`
+Cross-validates manually assigned lifestyle categories against WoRMS functional group data.
+
+| Function | Description |
+|---|---|
+| `combine_lifestyle(site_level, worms_traits, prefer)` | Joins WoRMS functional groups to the site-level data and resolves conflicts between manual and WoRMS assignments according to a preference setting (`"manual"` or `"worms"`). Returns the updated data frame and a `$disagreements` table listing all species where the two sources differ, for manual review. |
+
+---
+
+### `FUNC_worms_lifestyle.R`
+Queries the WoRMS API for functional group trait data and caches results to CSV.
+
+| Function | Description |
+|---|---|
+| `query_worms_functional_groups(species_list, cache_file, delay)` | For each species, resolves the AphiaID via `wm_name2id()`, retrieves all WoRMS attributes via `wm_attr_data()`, and extracts the "Functional group" trait. Results are appended to a CSV cache so that subsequent runs only query new species. |
+| `add_lifestyle_from_worms(site_level, worms_traits)` | Joins WoRMS functional group results to a site-level data frame and maps WoRMS trait labels to the project's standardised lifestyle categories. |
+
+---
+
+### `FUNC_plot_site_facet_theta.R`
+
+| Function | Description |
+|---|---|
+| `plot_site_facet_theta(combined_markers, site)` | Scatter plot of total reads vs empirical PCR detection probability (p_empirical), faceted by biosample detection tier (1/3, 2/3, 3/3 biosamples positive). Invasive species detections are highlighted and labelled. Useful for visual inspection of detection confidence at a single site. |
+
+---
+
+### `wheel_of_life_R.R` and `mm_wheel_of_life.py`
+An R wrapper and Python backend for generating "Wheel of Life" radial community plots. Each wheel shows the taxonomic composition of one sampling event across multiple markers, with taxa arranged in phylogenetic/ecological groups around the circumference. Small groups (<`min_group_size` taxa) are collapsed into "Others". An optional central image can be embedded.
+
+| Function | Description |
+|---|---|
+| `extract_wheel_data(ps, site_var, ...)` | Extracts and formats taxa and read data from a phyloseq object for one or more sites. Handles genus-level labels when species is unavailable. For Chordata, subdivides by Class rather than Phylum. |
+| `generate_wheels(..., output_dir, prefix, ...)` | Main wrapper. Accepts any number of named phyloseq objects (one per marker), extracts data for each site via `extract_wheel_data()`, serialises to JSON, calls `mm_wheel_of_life.py` via `system2()`, and saves one PNG per sampling event to `output_dir`. Metadata fields (site ID, collector, location, date) are drawn from a designated "metadata_from" marker. |
+
+The Python script (`mm_wheel_of_life.py`) handles all rendering using `matplotlib`. It reads the JSON data written by the R wrapper and produces publication-quality SVG/PNG wheel plots.
