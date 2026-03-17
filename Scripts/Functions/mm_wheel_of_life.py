@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Wheel of Life - Wilderlab Style
-With proper hierarchical phylogenetic tree and multi-marker support
+Wheel of Life - Visualisation of all species/genera across multiple markers
+
 """
 
 import numpy as np

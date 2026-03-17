@@ -1,6 +1,6 @@
 # BGE Coastal Marine Invasive Species — Citizen Science eDNA Pipeline
 
-This repository contains the analysis pipeline for the **BGE Coastal Marine Invasive Species Citizen Science Project (BGE-MNIS)**, developed at the NTNU University Museum, Department of Natural History (Glenn Dunshea).
+This repository contains the initial analysis pipeline for the **BGE Coastal Marine Invasive Species Citizen Science Project (BGE-MNIS)**, developed at the NTNU University Museum, Department of Natural History (Glenn Dunshea).
 
 At least 25 teams of citizen scientists undertook 46 sampling events across 12 European countries, each collecting triplicate 1-litre surface water filtrations from coastal harbour/port sites. DNA was extracted centrally and characterised by PCR amplification with three eDNA metabarcoding markers: **12S** (vertebrates), **18S** (eukaryotes), and **COI** (metazoans). The pipeline takes the resulting `phyloseq` objects from NCBI taxonomy and produces verified lists of marine invasive species detections, detection reliability scores, GBIF novelty assessments, and "Wheel of Life" community visualisations per sampling event.
 
